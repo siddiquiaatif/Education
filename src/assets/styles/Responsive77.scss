@@ -1,0 +1,1926 @@
+@media all and (max-width: 1920px) {
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -2.7%;
+  }
+  .Topic_main .topic-main-wrapper .custom-body::before {
+    height: calc(100% - 95px);
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header:before {
+    left: -5%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-body2:before {
+    left: -6%;
+    top: -70px;
+    width: 15px;
+  }
+}
+@media all and (max-width: 1600px) {
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -6%;
+    top: -70px;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -5%;
+  }
+}
+@media all and (max-width: 1500px) {
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -6%;
+    top: -70px;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -5.5%;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .false::after,
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .true::after {
+    right: -1px;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -7%;
+    // width: 10%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    left: -7.2%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-body2::before {
+    left: -8%;
+    width: 15px;
+    top: -44%;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -8%;
+  }
+}
+@media all and (max-width: 1366px) {
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -7.2%;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -8%;
+  }
+}
+@media all and (max-width: 1024px) {
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .false::after,
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .true::after {
+    right: 28px;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -13.6%;
+    width: 88px;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -8%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    left: -13.5%;
+    width: 20%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-body2::before {
+    left: -15%;
+    width: 15px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .nav-pills
+    .nav-link,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .nav-pills
+    .nav-link.active {
+    padding: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-img-box {
+    height: 33px;
+    width: 33px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-img-box
+    img {
+    width: 75%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-icon-box {
+    justify-content: flex-end;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper
+    img {
+    margin-bottom: 1rem;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p::after {
+    width: 31%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment-heading
+    p::after {
+    width: 74%;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    .qform {
+    width: 60%;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    .qform1 {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper{
+    height: 97.5%;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 20px 0 20px 75px;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -6%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    left: -5.5%;
+    width: 20%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p::after {
+    width: 77%;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-list-wrapper {
+    width: 94.5%;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper {
+    width: 94.5%;
+    margin: 1rem 0 1rem 20px;
+    // height: calc(100vh - 418px);
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-img-box {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .false::after,
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .true::after {
+    right: -1px;
+  }
+  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .subject,
+  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .CreatedOn,
+  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .ad-detail-text,
+  .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text p {
+    font-size: 10px !important;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -3.8%;
+  }
+  .topic-accordion-wrapper .tch-left .ad-heading {
+    font-size: 14px;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 20px 0 20px 45px;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -3.8%;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    left: -3.5%;
+    width: 20%;
+  }
+  .commenting-person,
+  .commented {
+    margin-left: 0.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .topic-accordion-wrapper .sub-topic-wrapper .sub-topic-item .sub-topic {
+    width: 80%;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 20px 0 20px 58px;
+  }
+  .tch-left {
+    img {
+      width: 100%;
+    }
+  }
+  .topic-accordion-wrapper .tch-right .CircularProgressbar {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -5.6%;
+    top: -82px;
+    height: 161%;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -3.5%;
+  }
+  .Topic_main .topic-main-wrapper .custom-body::before {
+    height: calc(100% - 87px);
+  }
+  .topic-accordion-wrapper .tch-left .topic-list {
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+  .topic-accordion-wrapper .tch-left .ad-heading {
+    font-size: 13px;
+  }
+  .topic-accordion-wrapper
+    .sub-topic-wrapper
+    .sub-topic-item
+    .sub-topic
+    .st-right
+    p {
+    font-size: 14px;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    left: -3.8%;
+  }
+  .registration-main .bottom-wrapper .button-wrapper {
+    flex-direction: column;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-1 {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    width: 100%;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    padding: 35px 18px 10px 18px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    padding: 0;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    width: 50px;
+    height: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    height: 60px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    top: -6px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .imgSelector
+    .editImg {
+    top: 25px;
+    left: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-school-name
+    p {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section {
+    margin: 20px 0 20px 0;
+  }
+  .registration-main .bottom-wrapper .login-register-btn {
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .left-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section
+    p {
+    font-size: 13px;
+  }
+  .registration-main .registration-auth-wrapper .fieldSetCUST .legendHere {
+    font-size: 10px;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .brand-logo {
+    width: 160px !important;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .fieldSetCUST {
+    margin-bottom: 15px !important;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
+    margin-bottom: 15px !important;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    .qform {
+    width: 68%;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    .qform1 {
+    width: 68%;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .Assignment .assignment-details-wrapper .ad-img-box2 {
+    justify-content: flex-start;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper .md-inner-wrapper{
+    height: 97.5%;
+  }
+  .topic-accordion-wrapper .accordion-item:first-of-type .accordion-button {
+    margin-top: 10px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .p-accordion
+    .p-accordion-header:not(.p-disabled).p-highlight
+    .p-accordion-header-link::before {
+    position: absolute;
+    top: 20px;
+    left: 154px;
+    content: " Marks Earned 3";
+    color: rgba(30, 10, 27, 0.6);
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-title
+    p {
+    font-size: 10px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    span {
+    width: 240px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    span {
+    font-size: 12px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .false::after,
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices
+    label
+    input:checked
+    + .true::after {
+    top: -2px;
+  }
+  .Assignment
+    .assignment-details-wrapper
+    .ad-text-box
+    .ad-detail-text
+    .subject
+    span {
+    margin-left: 3.5rem;
+  }
+  .Assignment
+    .assignment-details-wrapper
+    .ad-text-box
+    .ad-detail-text
+    .CreatedOn
+    span {
+    margin-left: 2.2rem;
+  }
+  .Assignment
+    .assignment-details-wrapper
+    .ad-text-box
+    .ad-detail-text
+    .submissinDate
+    span {
+    margin-left: 0.6rem;
+  }
+  .Assignment
+    .assignment-details-wrapper
+    .ad-text-box
+    .ad-detail-text
+    .assignedBy
+    span {
+    margin-left: 2rem;
+  }
+  .Assignment
+    .assignment-details-wrapper
+    .ad-text-box
+    .ad-detail-text
+    .status
+    span {
+    margin-left: 4rem;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .subtitle
+    p {
+    font-size: 12px;
+  }
+  .Assignment .assignment-details-wrapper .ad-img-box img {
+    width: 50%;
+    height: 100%;
+  }
+  .Assignment .assignment-details-wrapper .ad-img-box {
+    // height: 70%;
+  }
+  .Assignment .assignment-details-wrapper .ad-text-box {
+    margin-left: 0;
+  }
+  .topic-accordion-wrapper .sub-topic-wrapper .sub-topic-item .sub-topic {
+    width: 80%;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 20px 0 20px 34px;
+  }
+  .tch-left {
+    img {
+      width: 110%;
+      margin-bottom: 1rem;
+    }
+  }
+  .topic-accordion-wrapper .tch-right .CircularProgressbar {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+  }
+  .Topic_main .topic-main-wrapper .custom-body2::before {
+    left: -7.6%;
+    top: -63px;
+    height: 161%;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    left: -5.5%;
+  }
+  .Topic_main .topic-main-wrapper .custom-body::before {
+    height: calc(100% - 52px);
+  }
+  .topic-accordion-wrapper .tch-left .topic-list {
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+  .topic-accordion-wrapper .tch-left .ad-heading {
+    font-size: 13px;
+  }
+  .topic-accordion-wrapper
+    .sub-topic-wrapper
+    .sub-topic-item
+    .sub-topic
+    .st-right
+    p {
+    font-size: 14px;
+  }
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .ct-img {
+    width: 50%;
+  }
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .cl-text-box {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .course-topic-details {
+    padding: 15px;
+  }
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .smd-btn-wrapper {
+    align-items: flex-start;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .smd-btn-wrapper
+    .cx-mb-20 {
+    margin-bottom: 0;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-body::before {
+    height: 0;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-body2::before {
+    left: -20px;
+    top: -62px;
+  }
+  .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
+    // left: -4.8%;
+    display: none;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .col-center {
+    margin: 0;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .number {
+    font-size: 10px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .today p {
+    padding: 0px 12px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper {
+    height: 150px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p::after {
+    width: 48%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment-heading
+    p::after {
+    width: 56%;
+  }
+  .commenting-person,
+  .commented {
+    margin-left: 0;
+  }
+  .commenting-person {
+    margin-top: 0.5rem;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-list-wrapper,
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper {
+    width: 88.5%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .time-stamp
+    .time,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .time-stamp
+    .priority-details,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
+    font-size: 10px !important;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper {
+    margin-bottom: 5px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper
+    img {
+    margin-right: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper
+    img {
+    width: 46%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment-heading
+    p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-text-box
+    .mt-heading
+    p {
+    font-size: 14px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-text-box
+    .mt-details
+    p:first-child,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
+    font-size: 10px;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-purple {
+    margin: 0 5px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-title
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .main-diary-title
+    p {
+    font-size: 15px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-title {
+    padding-bottom: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .main-diary-title {
+    margin-top: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .md-text-box
+    p {
+    font-size: 13px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .current-month {
+    font-size: 14px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment
+    .commenting-person
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .sub-comment
+    .commenting-person
+    p {
+    font-size: 13px;
+    line-height: 12px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment
+    .commented
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .sub-comment
+    .commented
+    p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .registration-main .bottom-wrapper .button-wrapper {
+    flex-direction: column;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-1 {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    width: 100%;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    padding: 35px 15px 10px 15px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    padding: 0;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    width: 50px;
+    height: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    height: 60px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    top: -6px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .imgSelector
+    .editImg {
+    top: 25px;
+    left: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-school-name
+    p {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section {
+    margin: 20px 0 20px 0;
+  }
+  .registration-main .bottom-wrapper .login-register-btn {
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .left-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section
+    p {
+    font-size: 13px;
+  }
+  .registration-main .registration-auth-wrapper .fieldSetCUST .legendHere {
+    font-size: 10px;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .brand-logo {
+    width: 160px !important;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .fieldSetCUST {
+    margin-bottom: 15px !important;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
+    margin-bottom: 15px !important;
+  }
+
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .smd-btn-wrapper
+    button {
+    margin-right: 5px;
+  }
+  .transfer_certificate .bigCard,
+  .Request_NewTc .bigCard {
+    margin-top: 25px;
+  }
+  .Certificate .certificateCard .insideCertificate {
+    width: 72vw;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main {
+    height: 100vh;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main {
+    height: 73vh;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main
+    .map-bottom-wrapper {
+    flex-direction: column;
+    &:nth-child(1) {
+      p {
+        margin-left: 10px;
+      }
+    }
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main
+    .map-bottom-wrapper
+    .map-location-icons
+    img {
+    margin-right: 11px;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .RouteSummary
+    .RouteSummary_main
+    .RouteSummary_body
+    .Track_Body
+    .Step_wise_Route
+    .DropBusLogo {
+    top: 90px;
+  }
+  #ViewAuthorisedPerson .view_wrapper .Header .View_img{
+    left: 2px;
+  }
+  #CreateAuthorisedPerson .view_wrapper .Header .View_img{
+    left: -8px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .col-center {
+    margin: 0;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .number {
+    font-size: 10px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .today p {
+    padding: 0px 12px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper {
+    height: 150px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p::after {
+    width: 48%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment-heading
+    p::after {
+    width: 56%;
+  }
+  .commenting-person,
+  .commented {
+    margin-left: 0;
+  }
+  .commenting-person {
+    margin-top: 0.5rem;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-list-wrapper,
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper {
+    width: 88.5%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .time-stamp
+    .time,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .time-stamp
+    .priority-details,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
+    font-size: 10px !important;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper {
+    margin-bottom: 5px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper
+    img {
+    margin-right: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .img-box-wrapper
+    img {
+    width: 46%;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-list-heading
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment-heading
+    p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-text-box
+    .mt-heading
+    p {
+    font-size: 14px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-list-wrapper
+    .mydiary-list
+    .mydiary-single-item
+    .msi-text-box
+    .mt-details
+    p:first-child,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
+    font-size: 10px;
+  }
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red,
+  .mydiary_wrapper .mydiary-tabs-wrapper .priority-purple {
+    margin: 0 5px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-title
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .main-diary-title
+    p {
+    font-size: 15px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-title {
+    padding-bottom: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .main-diary-title {
+    margin-top: 10px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .main-diary-details-wrapper
+    .md-text-box
+    p {
+    font-size: 13px;
+  }
+  .mydiary_wrapper .week-calendar-wrapper .current-month {
+    font-size: 14px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment
+    .commenting-person
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .sub-comment
+    .commenting-person
+    p {
+    font-size: 13px;
+    line-height: 12px;
+  }
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .comment
+    .commented
+    p,
+  .mydiary_wrapper
+    .mydiary-tabs-wrapper
+    .mydiary-detail-wrapper
+    .md-inner-wrapper
+    .comment-box
+    .sub-comment
+    .commented
+    p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .registration-main .bottom-wrapper .button-wrapper {
+    flex-direction: column;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-1 {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    width: 100%;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    padding: 35px 15px 10px 15px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    padding: 0;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    width: 50px;
+    height: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    height: 60px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    top: -6px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .imgSelector
+    .editImg {
+    top: 25px;
+    left: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-school-name
+    p {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section {
+    margin: 20px 0 20px 0;
+  }
+  .registration-main .bottom-wrapper .login-register-btn {
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .left-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section
+    p {
+    font-size: 13px;
+  }
+  .registration-main .registration-auth-wrapper .fieldSetCUST .legendHere {
+    font-size: 10px;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .brand-logo {
+    width: 160px !important;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .fieldSetCUST {
+    margin-bottom: 15px !important;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
+    margin-bottom: 15px !important;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper .md-inner-wrapper{
+    height: 97.5%;
+  }
+  #ViewAuthorisedPerson .view_wrapper .Header .View_img{
+    left: 2px;
+  }
+  #CreateAuthorisedPerson .view_wrapper .Header .View_img{
+    left: -8px;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .RouteSummary
+    .RouteSummary_main
+    .RouteSummary_body
+    .Track_Body
+    .Step_wise_Route
+    .DropBusLogo {
+    top: 90px;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main {
+    height: 100vh;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main {
+    height: 73vh;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main
+    .map-bottom-wrapper {
+    flex-direction: column;
+  }
+  #Bustracking_main
+    .BusTacking_Top_tabs
+    .PickUP
+    .Mapsection
+    .RouteSummary_main
+    .google-map
+    .map-main
+    .map-bottom-wrapper
+    .map-location-icons
+    img {
+    margin-right: 11px;
+  }
+  .personal_details .mainLandingCard .profileCard .userCard .UserName,
+  .edit_details .mainLandingCard .profileCard .userCard .UserName,
+  .change_password .mainLandingCard .profileCard .userCard .UserName,
+  .New_registration .mainLandingCard .profileCard .userCard .UserName,
+  .Edit_Registration .mainLandingCard .profileCard .userCard .UserName,
+  .viewKids_details .mainLandingCard .profileCard .userCard .UserName,
+  .Edit_KidsDetails .mainLandingCard .profileCard .userCard .UserName,
+  .Id_cards .mainLandingCard .profileCard .userCard .UserName,
+  .View_Registration .mainLandingCard .profileCard .userCard .UserName,
+  .Invoice_fee .mainLandingCard .profileCard .userCard .UserName,
+  .Certificate .mainLandingCard .profileCard .userCard .UserName {
+    font-size: 12px;
+  }
+  .transfer_certificate .bigCard,
+  .Request_NewTc .bigCard {
+    margin-top: 25px;
+  }
+  .Certificate .certificateCard .insideCertificate {
+    width: 72vw;
+  }
+  .AboutCourseDetails
+    .course-topic-details-wrapper
+    .course-topic-details
+    .smd-btn-wrapper
+    button {
+    margin-right: 5px;
+  }
+  .topic-accordion-wrapper .accordion-item:first-of-type .accordion-button {
+    margin-top: 10px;
+  }
+  .Assignment .assignment-details-wrapper .ad-img-box2 {
+    justify-content: flex-start;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .assignment-accordion-wrapper
+    .assignment-accordion
+    .question-wrapper
+    .question-choices {
+    padding: 0;
+  }
+  .green-btn-1 {
+    padding: 5px 8px;
+    font-size: 10px;
+    text-align: center;
+    // height: 35px;
+    width: 112px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .p-accordion
+    .p-accordion-header:not(.p-disabled).p-highlight
+    .p-accordion-header-link::after {
+    left: 130px;
+  }
+  .Assignment
+    .assignment-main-wrapper
+    .p-accordion
+    .p-accordion-header:not(.p-disabled).p-highlight
+    .p-accordion-header-link::before {
+    top: 21px;
+    left: 141px;
+  }
+  .filter-wrapper .fw-input-fields .p-inputtext {
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .filter-wrapper .fw-input-fields .p-button {
+    margin-right: 10px;
+  }
+  .Attendance_calender .breadcrumb-wrapper .breadcrumb p {
+    font-size: 13px;
+  }
+  .rbc-toolbar button {
+    font-size: 7px;
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .calendar
+    .rbc-toolbar
+    .rbc-toolbar-label {
+    font-size: 14px !important;
+  }
+  .rbc-header {
+    font-size: 60%;
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .calendar
+    .rbc-date-cell {
+    padding: 25px 6px;
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .holidays-wrapper,
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .categories-wrapper {
+    padding: 15px;
+  }
+  .holidays-wrapper {
+    margin-bottom: 10px;
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .holidays-wrapper
+    .hw-title
+    p,
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .categories-wrapper
+    .cw-title
+    p {
+    font-size: 14px;
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .holidays-wrapper
+    .hw-body
+    p,
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .holidays-wrapper
+    .hw-body
+    p
+    span,
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .legends
+    .categories-wrapper
+    .cw-body
+    p {
+    font-size: 12px;
+  }
+  .Attendance_calender .attendance-status .text-box p {
+    font-size: 6px;
+  }
+  .breadcrumb-wrapper .attendance-status .percentage,
+  .breadcrumb-wrapper .attendance-status .days {
+    margin: 0 !important;
+  }
+  .Attendance_calender .attendance-status .color-icon {
+    width: 5px;
+    height: 5px;
+  }
+  .breadcrumb-wrapper .attendance-status {
+    display: block;
+  }
+  .breadcrumb-wrapper {
+    padding: 10px !important;
+    .attendance-status {
+      .percentage,
+      .days,
+      .leavedays {
+        justify-content: flex-start;
+      }
+    }
+  }
+  .p-inputtext {
+    // height: 25px !important;
+    // font-size: 10px !important;
+    &::placeholder {
+      // font-size: 10px !important;
+      // color: rgba(30, 10, 27, 0.3);
+      padding-left: 0;
+    }
+  }
+  .p-button {
+    height: 25px !important;
+    padding: 0 !important;
+  }
+  .filter-wrapper {
+    align-items: flex-start;
+    .fw-input-fields {
+      width: 100%;
+
+      &::placeholder {
+        font-size: 10px;
+      }
+      .p-button {
+        .pi {
+          font-size: 10px;
+        }
+      }
+    }
+    .fw-btn-wrapper {
+      a {
+        padding: 7px 12px;
+        font-size: 8px;
+      }
+    }
+  }
+  .p-datepicker:not(.p-datepicker-inline) {
+    left: 50px !important;
+  }
+  .Attendance_calender .activity-table-wrapper table {
+    td,
+    th {
+      font-size: 8px !important;
+    }
+  }
+  .Attendance_calender .activity-table-wrapper table tbody tr td {
+    .attendance-status-green,
+    .subject,
+    .teacher-name {
+      font-size: 9px;
+      padding: 0 !important;
+    }
+  }
+  .Attendance_calender .activity-table-wrapper table tbody tr td,
+  th {
+    padding: 7px 10px !important;
+  }
+  .Attendance_calender .activity-table-wrapper table thead tr th {
+    padding: 10px 0;
+  }
+  .Attendance_calender
+    .activity-table-wrapper
+    table
+    tbody
+    tr
+    td
+    .img-wrapper
+    img {
+    width: 20px;
+  }
+  .Attendance_calender .activity-table-wrapper table tbody tr td .img-wrapper {
+    &::after {
+      top: 80%;
+      height: 48px;
+    }
+    .blank_tick {
+      width: 15px;
+    }
+  }
+  .Attendance_calender .activity-table-wrapper table thead tr th:first-child {
+    padding: 7px 10px !important;
+  }
+  .Attendance_calender
+    .attendance-blank-table
+    table
+    tbody
+    tr
+    td
+    .no-record-img {
+    img {
+      width: 80px;
+    }
+  }
+  .Attendance_calender .activity-table-wrapper table tbody tr td span {
+    padding: 4px 10px !important;
+    font-size: 8px !important;
+  }
+  .Attendance_calender .bottom-status-bar .filter-result-count p {
+    font-size: 6px !important;
+  }
+  .Attendance_calender .bottom-status-bar {
+    padding: 10px;
+    min-width: 350px;
+  }
+  .action-icon-wrapper {
+    display: flex;
+    img {
+      width: 12px;
+    }
+  }
+  .breadcrumb-wrapper .breadcrumb p {
+    font-size: 13px !important;
+  }
+  .Apply_leave .form-wrapper .form-title-wrapper .form-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .Apply_leave {
+    .fieldSetCUST .legendHere {
+      font-size: 10px;
+      top: -16px;
+    }
+    .fieldSetCUST .caledarImg {
+      // width: 14px;
+      // top: 8px;
+    }
+    .fieldSetCUST .form-select:invalid {
+      // font-size: 10px;
+    }
+    .fieldSetCUST .form-select {
+      // height: auto;
+    }
+    .form-wrapper .form-control {
+      padding: 10px 14px;
+      &::placeholder {
+        font-size: 10px;
+      }
+    }
+    .form-select {
+      font-size: 10px;
+      background-size: 8px !important;
+    }
+    .fieldSetCUST .formsForTextArea {
+      font-size: 10px;
+    }
+  }
+  .Attendance_calender
+    .calendar-outer-wrapper
+    .calendar-inner-wrapper
+    .calendar
+    .rbc-date-cell {
+    font-size: 10px !important;
+  }
+  .cx-btn-1 {
+    height: 25px;
+    font-size: 10px;
+  }
+  .cx-btn-2 {
+    height: 25px;
+    font-size: 10px;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 20px 20px 10px 00px;
+  }
+  .Topic_main .topic-main-wrapper .custom-body::before {
+    height: 0;
+  }
+  .Topic_main .topic-main-wrapper .custom-header::before {
+    display: none;
+  }
+  .topic-accordion-wrapper .sub-topic-wrapper .sub-topic-item .sub-icon-box {
+    margin-right: 3px;
+  }
+  .topic-accordion-wrapper .sub-topic-wrapper .sub-topic-item .sub-topic {
+    padding: 10px;
+  }
+  .topic-accordion-wrapper .accordion-body {
+    padding: 0;
+    padding-left: 5px;
+  }
+  .Assignment .main-assignment-wrapper .assignment-card {
+    padding-bottom: 2rem;
+  }
+  .Study_material_topic
+    .study-material-topic-details
+    .study-material-details-wrapper
+    .ad-text-box {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+  .Study_material_topic
+    .study-material-topic-details
+    .rating-in-heading::before {
+    top: 61%;
+  }
+  .breadcrumb-wrapper .breadcrumb .belowLink {
+    font-size: 13px;
+  }
+  .breadcrumb-wrapper .btn-wrapper p {
+    font-size: 13px;
+  }
+  .p-tabview-title {
+    font-size: 13px;
+  }
+  .registration-main .bottom-wrapper .button-wrapper {
+    flex-direction: column;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-1 {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    width: 100%;
+  }
+  .registration-main .registration-auth-wrapper .registration-card {
+    padding: 35px 15px 10px 15px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    padding: 0;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    width: 50px;
+    height: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard {
+    height: 60px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .UserImg {
+    top: -6px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .profileCard
+    .userCard
+    .imgSelector
+    .editImg {
+    top: 25px;
+    left: 50px;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-school-name
+    p {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section {
+    margin: 20px 0 20px 0;
+  }
+  .registration-main .bottom-wrapper .login-register-btn {
+    width: 100%;
+  }
+  .registration-main .bottom-wrapper .left-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .top-heading-section
+    p {
+    font-size: 13px;
+  }
+  .registration-main .registration-auth-wrapper .fieldSetCUST .legendHere {
+    font-size: 10px;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .brand-logo {
+    width: 160px !important;
+  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card
+    .fieldSetCUST {
+    margin-bottom: 15px !important;
+  }
+  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
+    margin-bottom: 15px !important;
+  }
+}
