@@ -42,7 +42,7 @@ const PersonalDetails = () => {
                     {/* User details section */}
                     <div className="informationSec">
                         <div className="row g-0">
-                            <label className='innerLabel cx-mb-15 border-bottom cx-mt-10'>Information</label>
+                            <label className='innerLabel cx-mb-10'>Information</label>
                             <div className="col-lg-3 col-md-4 col-sm-12 cx-mb-20">
                                 <h6 className="labelKey">Email </h6>
                                 <label className="labelValue">Jhondoe@gmail.com</label>
@@ -60,10 +60,10 @@ const PersonalDetails = () => {
                                 <label className="labelValue">40</label>
                             </div>
                             
-                            <label className='innerLabel cx-mb-15 border-bottom cx-mt-10'>General Information</label>
-                            <div className="col-lg-3 col-md-3 col-sm-12 cx-mb-20">
+                            <label className='innerLabel cx-mb-10'>General Information</label>
+                            <div className="col-lg-3 col-md-4 col-sm-12 cx-mb-20">
                                 <h6 className="labelKey">Address</h6>
-                                <label className="labelValue">100, Vishrantwadi, Kalas, Nechipalliyil <br /> House, Pune -411002</label>
+                                <label className="labelValue">100, Vishrantwadi, Kalas, <br /> Pune -411002</label>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-12 cx-mb-20">
                                 <h6 className="labelKey">City</h6>
@@ -91,10 +91,10 @@ const PersonalDetails = () => {
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-12 cx-mb-20">
                                 <h6 className="labelKey">Status </h6>
-                                <label className="labelGreen">Active</label>
+                                <label className="labelGreen">40</label>
                             </div>
                             
-                            <label className='innerLabel cx-mb-20 border-bottom cx-mt-10'>Recent Activity</label>
+                            <label className='innerLabel cx-mb-10'>Recent Activity</label>
                             <div className="col-md-12">
                                 <div className="recentDetails">
                                     <div className="pointDot"></div>

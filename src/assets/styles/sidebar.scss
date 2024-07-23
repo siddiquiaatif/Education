@@ -16,10 +16,6 @@
     }
   }
   .menus-wrapper {
-    .sidebar-accordion {
-      height: calc(100vh - 100px);
-      overflow-y: scroll;
-    }
     .menu-link {
       text-decoration: none;
     }
@@ -37,7 +33,7 @@
         }
       }
       .menu-name {
-        font-weight: 600 !important;
+font-weight: 600 !important;
         color: #954386 !important;
       }
       background-color: #fcfcfb !important;

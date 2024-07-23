@@ -28,7 +28,7 @@ const BuyCourseDetails = () => {
         <div className="course-topic-details-wrapper mb-3">
           <div className="course-topic-details">
             <div className="row g-0">
-              <div className="col-md-2 col-lg-1 col-sm-2 col-2">
+              <div className="col-md-2 col-lg-1 col-sm-2">
                 <div className="ct-img">
                 <img src={cart_list_img} alt="" />
                 </div>
@@ -71,12 +71,12 @@ const BuyCourseDetails = () => {
                 <Accordion.Header className="tc-lesson-header course-accordion-header">
                   <div className="tch-left">
                     <div className="row">
-                      <div className="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-3">
+                    <div className="col-lg-5">
                         <img src={lesson_icon} alt="" />
                       </div>
-                      <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
+                      <div className="col-lg-7 d-flex align-items-center">
                         <div className="topic-text-box">
-                          <div className="ad-heading"><h3>Lesson 01</h3></div>
+                          <div className="ad-heading">Lesson 01</div>
                           <div className="topic-list">
                             <span className="me-3">Start Date </span>
                             21-02-2023
@@ -104,7 +104,7 @@ const BuyCourseDetails = () => {
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><h3>Topic 01</h3></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -137,7 +137,7 @@ const BuyCourseDetails = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -171,7 +171,7 @@ const BuyCourseDetails = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -205,7 +205,7 @@ const BuyCourseDetails = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -232,7 +232,7 @@ const BuyCourseDetails = () => {
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><p>Topic 01</p></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -265,7 +265,7 @@ const BuyCourseDetails = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>

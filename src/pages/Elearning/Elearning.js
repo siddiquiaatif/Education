@@ -265,7 +265,7 @@ const Elearning = () => {
           <Row>
             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
               <div className="curiculum-inner-card">
-                <Link to="/ElearningAdditionalTopic">
+                <Link to="/ElearningSubjectTopic">
                   <div className="curiculm-btn d-flex">
                     <img
                       src={require("../../assets/images/curiculum/react-logo.png")}
@@ -295,7 +295,7 @@ const Elearning = () => {
 
             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
               <div className="curiculum-inner-card">
-                <Link to="/ElearningAdditionalTopic">
+                <Link to="/ElearningSubjectTopic">
                   <div className="curiculm-btn d-flex">
                     <img
                       src={require("../../assets/images/curiculum/tube.png")}
@@ -325,7 +325,7 @@ const Elearning = () => {
 
             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
               <div className="curiculum-inner-card">
-                <Link to="/ElearningAdditionalTopic">
+                <Link to="/ElearningSubjectTopic">
                   <div className="curiculm-btn d-flex">
                     <img
                       src={require("../../assets/images/curiculum/img2.png")}

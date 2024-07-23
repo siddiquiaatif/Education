@@ -2,8 +2,7 @@
     .single_Video {
         background: #FFFFFF;
         border-radius: 16px;
-        // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         padding: 20px;
         margin-bottom: 20px;
         .heading {
@@ -45,8 +44,8 @@
                     }
 
                     .count {
-                        height: 26px;
-                        width: 26px;
+                        height: 25px;
+                        width: 25px;
                         color: #954386;
                         border: 1px solid rgba(149, 67, 134, 0.25);
                         box-shadow: 0px 4px 16px rgba(121, 38, 106, 0.16);
@@ -55,9 +54,8 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 9px;
+                        font-size: 8px;
                         margin: 0;
-                        font-weight: 500;
                         cursor: pointer;
                     }
                 }
@@ -67,7 +65,7 @@
                 button {
                     background: linear-gradient(229.12deg, #B23A9C 3.8%, #79266A 95.87%);
                     color: white;
-                    padding: 6px 10px;
+                    padding: 3px 5px;
                     border: none;
                     border-radius: 5px;
                     font-size: 12px;

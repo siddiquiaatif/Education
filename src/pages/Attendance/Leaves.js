@@ -43,7 +43,7 @@ const Leaves = () => {
               <div className="col-lg-6">
                 <Calendar
                   value={date}
-                  // onChange={(e) => setDate(e.value)}
+                  onChange={(e) => setDate(e.value)}
                   showIcon
                   placeholder="Month"
                 />
@@ -51,7 +51,7 @@ const Leaves = () => {
               <div className="col-lg-6">
                 <Calendar
                   value={date}
-                  // onChange={(e) => setDate(e.value)}
+                  onChange={(e) => setDate(e.value)}
                   showIcon
                   placeholder="Year"
                 />

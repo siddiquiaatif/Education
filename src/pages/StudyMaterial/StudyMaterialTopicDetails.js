@@ -16,19 +16,17 @@ const StudyMaterialTopicDetails = () => {
         <div className="study-material-topic-details mb-3">
           <div className="study-material-details-wrapper">
             <div className="row g-0">
-              <div className="col-md-2 col-lg-1 col-sm-2">
+              <div className="col-lg-1">
                 <div className="ad-img-box">
                   <img src={topic_details_img} alt="" />
                 </div>
               </div>
-              <div className="col-lg-9 col-md-6 col-sm-6 d-flex align-items-center">
-                <div className="ad-text-box ms-4">
+              <div className="col-lg-8 d-flex align-items-center">
+                <div className="ad-text-box ms-3">
                   <div className="row g-0">
                     <div className="col-lg-12">
                       <div className="ad-heading rating-in-heading">
-                     <p>
                         Rutherford's Atomic Model{" "}
-                      </p> 
                         <span className="stars">
                           <img src={star_icon} alt="" />
                           <img src={star_icon} alt="" />
@@ -39,7 +37,7 @@ const StudyMaterialTopicDetails = () => {
                         <span className="rating-count">(104)</span>
                       </div>
                     </div>
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="subject">
                           Created By
@@ -49,7 +47,7 @@ const StudyMaterialTopicDetails = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="CreatedOn">
                           E-Learning
@@ -61,9 +59,9 @@ const StudyMaterialTopicDetails = () => {
                         </p>
                       </div>
                     </div>
-                    {/* <div className="col-lg-3 col-md-3 col-sm-3"></div> */}
-                    {/* <div className="col-lg-6 col-md-6 col-sm-6"></div> */}
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                    <div className="col-lg-3"></div>
+                    <div className="col-lg-3"></div>
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="assignedBy">
                           Assignment{" "}
@@ -76,7 +74,7 @@ const StudyMaterialTopicDetails = () => {
                       </div>
                     </div>
 
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="status">
                           Assessment{" "}
@@ -89,18 +87,18 @@ const StudyMaterialTopicDetails = () => {
                       </div>
                     </div>
 
-                    {/* <div className="col-lg-3 col-md-3 col-sm-3"></div> */}
+                    <div className="col-lg-3"></div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-4">
+              <div className="col-lg-3">
                 <div className="row">
-                  <div className="col-lg-4">
+                  <div className="col-lg-6">
                     <div className="smd-rate">
                       <p>1500$</p>
                     </div>
                   </div>
-                  <div className="col-lg-8">
+                  <div className="col-lg-6">
                     <div className="smd-btn-wrapper">
                       <button className="cx-btn-2 cx-mb-20">Add To Cart</button>
                       <Link to="/mycart" className="cx-btn-1">
@@ -136,12 +134,12 @@ const StudyMaterialTopicDetails = () => {
             <div className="smt-topic">
               <div className="smt-left">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                  <div className="col-lg-3">
                     <img src={subtopic_icon} alt="" className="me-5" />
                   </div>
-                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                  <div className="col-lg-9 d-flex align-items-center">
                     <div className="topic-text-box">
-                      <div className="ad-heading"><p>E-Learning</p></div>
+                      <div className="ad-heading">E-Learning</div>
                     </div>
                   </div>
                 </div>
@@ -153,12 +151,12 @@ const StudyMaterialTopicDetails = () => {
             <div className="smt-topic">
               <div className="smt-left">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                  <div className="col-lg-3">
                     <img src={subtopic_icon} alt="" className="me-5" />
                   </div>
-                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                  <div className="col-lg-9 d-flex align-items-center">
                     <div className="topic-text-box">
-                      <div className="ad-heading"><p>Assignments</p></div>
+                      <div className="ad-heading">Assignments</div>
                     </div>
                   </div>
                 </div>
@@ -170,12 +168,12 @@ const StudyMaterialTopicDetails = () => {
             <div className="smt-topic">
               <div className="smt-left">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                  <div className="col-lg-3">
                     <img src={subtopic_icon} alt="" className="me-5" />
                   </div>
-                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                  <div className="col-lg-9 d-flex align-items-center">
                     <div className="topic-text-box">
-                      <div className="ad-heading"><p>Assessments</p></div>
+                      <div className="ad-heading">Assessments</div>
                     </div>
                   </div>
                 </div>

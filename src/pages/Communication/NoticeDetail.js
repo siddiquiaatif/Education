@@ -12,7 +12,7 @@ const NoticeDetail = () => {
                     Job/Volunteer Opportunities
                     </p>
                     <p className="date">
-                    Category- <span className="category"> School Notice</span> Posted on December 12, 2022 By <span className="category">Douglas Klutz</span>
+                        Posted on December 12, 2022 By <span>Douglas Klutz</span>
                     </p>
                 </div>
                 <div className="body">

@@ -95,8 +95,7 @@
   justify-content: center;
   text-decoration: none;
 
-  &:hover {
-  }
+  &:hover {}
 }
 
 // ||===========================> INPUTS <==============================||
@@ -322,7 +321,7 @@
 }
 
 .cx-mt-10 {
-  margin-top: 10px !important;
+  margin-top: 10px;
 }
 
 .cx-mt-15 {
@@ -606,14 +605,12 @@ body {
     cursor: pointer;
     height: 13px;
     width: 13px;
-    margin-top: 6px;
   }
 
-  .form-check-input:checked[type="radio"] {
+  .form-check-input:checked[type='radio'] {
     background-image: url("../images/roundRadio.svg") !important;
     background-size: 15px !important;
     border: #abc73e !important;
-    margin-top: 6px;
   }
 
   .form-check-input:checked {
@@ -625,13 +622,13 @@ body {
     box-shadow: none !important;
   }
 
-  .form-check-input ~ .form-check-label {
+  .form-check-input~.form-check-label {
     color: rgba(30, 10, 27, 0.3) !important;
     font-size: 13px;
     cursor: pointer;
   }
 
-  .form-check-input:checked ~ .form-check-label {
+  .form-check-input:checked~.form-check-label {
     color: #abc73e !important;
     font-size: 13px;
   }
@@ -690,12 +687,6 @@ body {
       background-color: #fff;
       width: 100px;
       height: 35px;
-      a {
-        color: #954386 !important;
-        &:hover {
-          color: #954386 !important;
-        }
-      }
     }
 
     .YesBtn {

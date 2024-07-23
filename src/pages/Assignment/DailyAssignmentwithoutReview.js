@@ -30,32 +30,32 @@ const DailyAssignmentwithoutReview = () => {
         >
           <div className="assignment-details-wrapper green-label">
             <div className="row g-0">
-              <div className="col-lg-1 col-md-1">
+              <div className="col-lg-1">
                 <div className="ad-img-box">
                   <img src={assignment_title_Icon} alt="" />
                 </div>
               </div>
-              <div className="col-lg-11 col-md-11 d-flex align-items-center">
+              <div className="col-lg-10 d-flex align-items-center">
                 <div className="ad-text-box">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="ad-heading"><p>Assignment 01</p></div>
+                      <div className="ad-heading">Assignment 01</div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="subject">
                           Subject<span>Physics</span>
                         </p>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="CreatedOn">
                           Created On<span>09-08-2023</span>
                         </p>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="submissinDate">
                           Submission Date
@@ -63,8 +63,8 @@ const DailyAssignmentwithoutReview = () => {
                         </p>
                       </div>
                     </div>
-                    {/* <div className="col-lg-3"></div> */}
-                    <div className="col-md-4">
+                    <div className="col-lg-3"></div>
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="assignedBy">
                           Assigned By <span>Mr. John Doe</span>
@@ -72,7 +72,7 @@ const DailyAssignmentwithoutReview = () => {
                       </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="status">
                           Status<span>Submitted</span>
@@ -80,7 +80,7 @@ const DailyAssignmentwithoutReview = () => {
                       </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-3">
                       <div className="ad-detail-text">
                         <p className="submittedOn">
                           Submitted On
@@ -101,9 +101,9 @@ const DailyAssignmentwithoutReview = () => {
                   <Accordion
                     activeIndex={0}
                     // multiple
-                    className="assignment-accordion"
+                    className="assignment-accordion red-label"
                   >
-                    <AccordionTab header="Question 01" className="header-1">
+                    <AccordionTab header="Question 01" className="">
                       <div className="subtitle">
                         <p>Multiple Choice Single Answer Question.</p>
                       </div>
@@ -135,7 +135,7 @@ const DailyAssignmentwithoutReview = () => {
                         </div>
                       </div>
                     </AccordionTab>
-                    <AccordionTab header="Question 02" className="header-2">
+                    <AccordionTab header="Question 02">
                       <div className="subtitle">
                         <p>Multiple Choice Multiple Answer Question.</p>
                       </div>
@@ -164,7 +164,7 @@ const DailyAssignmentwithoutReview = () => {
                         </div>
                       </div>
                     </AccordionTab>
-                    <AccordionTab header="Question 03" className="header-3">
+                    <AccordionTab header="Question 03">
                       <div className="subtitle">
                         <p>Fill in the blanks</p>
                       </div>

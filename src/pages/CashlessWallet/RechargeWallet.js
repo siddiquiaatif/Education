@@ -67,7 +67,7 @@ const RechargeWallet = () => {
                 </div>
                 <div className="belowBtns">
                     <button className="cx-btn-2">Cancel</button>
-                    <Link to="#" className="PayaLink">
+                    <Link to="/InvoiceFee" className="PayaLink">
                         <button className="cx-btn-1 cx-ml-10">Pay Now</button>
                     </Link>
                 </div>

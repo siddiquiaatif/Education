@@ -3,102 +3,38 @@
     left: -2.7%;
   }
   .Topic_main .topic-main-wrapper .custom-body::before {
-    height: calc(100% - 95px);
-  }
-  .AboutCourseDetails .course-topic-details-wrapper .custom-header:before {
-    left: -5%;
-  }
-  .AboutCourseDetails .course-topic-details-wrapper .custom-body2:before {
-    left: -6%;
-    top: -70px;
-    width: 15px;
+    height: calc(100% - 75px);
   }
 }
+
 @media all and (max-width: 1600px) {
   .Topic_main .topic-main-wrapper .custom-body2::before {
     left: -6%;
     top: -70px;
   }
   .Topic_main .topic-main-wrapper .custom-header::before {
-    left: -5%;
-  }
-}
-@media all and (max-width: 1500px) {
-  .Topic_main .topic-main-wrapper .custom-body2::before {
-    left: -6%;
-    top: -70px;
-  }
-  .Topic_main .topic-main-wrapper .custom-header::before {
-    left: -5.5%;
+    left: -4.7%;
   }
 }
 
 @media all and (max-width: 1440px) {
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .false::after,
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .true::after {
-    right: -1px;
-  }
   .Topic_main .topic-main-wrapper .custom-header::before {
-    left: -7%;
+    left: -6.3%;
     // width: 10%;
   }
   .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
-    left: -7.2%;
+    left: -6.3%;
   }
   .AboutCourseDetails .course-topic-details-wrapper .custom-body2::before {
-    left: -8%;
+    left: -7%;
     width: 15px;
-    top: -44%;
   }
   .Topic_main .topic-main-wrapper .custom-body2::before {
-    left: -8%;
+    left: -7%;
   }
 }
-@media all and (max-width: 1366px) {
-  .Topic_main .topic-main-wrapper .custom-header::before {
-    left: -7.2%;
-  }
-  .Topic_main .topic-main-wrapper .custom-body2::before {
-    left: -8%;
-  }
-}
+
 @media all and (max-width: 1024px) {
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .false::after,
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .true::after {
-    right: 28px;
-  }
   .Topic_main .topic-main-wrapper .custom-header::before {
     left: -13.6%;
     width: 88px;
@@ -180,30 +116,9 @@
     p::after {
     width: 74%;
   }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    .qform {
-    width: 60%;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    .qform1 {
-    width: 60%;
-  }
 }
 
 @media all and (max-width: 991px) {
-  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper{
-    height: 97.5%;
-  }
   .topic-accordion-wrapper .accordion-body {
     padding: 20px 0 20px 75px;
   }
@@ -228,7 +143,7 @@
   .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper {
     width: 94.5%;
     margin: 1rem 0 1rem 20px;
-    // height: calc(100vh - 418px);
+    height: calc(100vh - 418px);
   }
   .mydiary_wrapper
     .mydiary-tabs-wrapper
@@ -242,32 +157,6 @@
 }
 
 @media all and (max-width: 800px) {
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .false::after,
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .true::after {
-    right: -1px;
-  }
-  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .subject,
-  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .CreatedOn,
-  // .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text .ad-detail-text,
-  .Assignment .assignment-details-wrapper .ad-text-box .ad-detail-text p {
-    font-size: 10px !important;
-  }
   .Topic_main .topic-main-wrapper .custom-header::before {
     left: -3.8%;
   }
@@ -440,159 +329,14 @@
     .fieldSetCUST {
     margin-bottom: 15px !important;
   }
-  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
-    margin-bottom: 15px !important;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    .qform {
-    width: 68%;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    .qform1 {
-    width: 68%;
-  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card .cx-mb-20{
+      margin-bottom: 15px !important;
+    }
 }
 
 @media all and (max-width: 420px) {
-  .Assignment .assignment-details-wrapper .ad-img-box2 {
-    justify-content: flex-start;
-  }
-  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper .md-inner-wrapper{
-    height: 97.5%;
-  }
-  .topic-accordion-wrapper .accordion-item:first-of-type .accordion-button {
-    margin-top: 10px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .p-accordion
-    .p-accordion-header:not(.p-disabled).p-highlight
-    .p-accordion-header-link::before {
-    position: absolute;
-    top: 20px;
-    left: 154px;
-    content: " Marks Earned 3";
-    color: rgba(30, 10, 27, 0.6);
-    font-weight: 400;
-    font-size: 10px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-title
-    p {
-    font-size: 10px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    span {
-    width: 240px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    span {
-    font-size: 12px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .false::after,
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices
-    label
-    input:checked
-    + .true::after {
-    top: -2px;
-  }
-  .Assignment
-    .assignment-details-wrapper
-    .ad-text-box
-    .ad-detail-text
-    .subject
-    span {
-    margin-left: 3.5rem;
-  }
-  .Assignment
-    .assignment-details-wrapper
-    .ad-text-box
-    .ad-detail-text
-    .CreatedOn
-    span {
-    margin-left: 2.2rem;
-  }
-  .Assignment
-    .assignment-details-wrapper
-    .ad-text-box
-    .ad-detail-text
-    .submissinDate
-    span {
-    margin-left: 0.6rem;
-  }
-  .Assignment
-    .assignment-details-wrapper
-    .ad-text-box
-    .ad-detail-text
-    .assignedBy
-    span {
-    margin-left: 2rem;
-  }
-  .Assignment
-    .assignment-details-wrapper
-    .ad-text-box
-    .ad-detail-text
-    .status
-    span {
-    margin-left: 4rem;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .subtitle
-    p {
-    font-size: 12px;
-  }
-  .Assignment .assignment-details-wrapper .ad-img-box img {
-    width: 50%;
-    height: 100%;
-  }
-  .Assignment .assignment-details-wrapper .ad-img-box {
-    // height: 70%;
-  }
-  .Assignment .assignment-details-wrapper .ad-text-box {
-    margin-left: 0;
-  }
   .topic-accordion-wrapper .sub-topic-wrapper .sub-topic-item .sub-topic {
     width: 80%;
   }
@@ -670,15 +414,14 @@
     margin-bottom: 0;
   }
   .AboutCourseDetails .course-topic-details-wrapper .custom-body::before {
-    height: 0;
+    height: calc(100% - 82px);
   }
   .AboutCourseDetails .course-topic-details-wrapper .custom-body2::before {
     left: -20px;
     top: -62px;
   }
   .AboutCourseDetails .course-topic-details-wrapper .custom-header::before {
-    // left: -4.8%;
-    display: none;
+    left: -4.8%;
   }
   .mydiary_wrapper .week-calendar-wrapper .col-center {
     margin: 0;
@@ -988,497 +731,14 @@
     .fieldSetCUST {
     margin-bottom: 15px !important;
   }
-  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
-    margin-bottom: 15px !important;
-  }
-
-  .AboutCourseDetails
-    .course-topic-details-wrapper
-    .course-topic-details
-    .smd-btn-wrapper
-    button {
-    margin-right: 5px;
-  }
-  .transfer_certificate .bigCard,
-  .Request_NewTc .bigCard {
-    margin-top: 25px;
-  }
-  .Certificate .certificateCard .insideCertificate {
-    width: 72vw;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main {
-    height: 100vh;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main {
-    height: 73vh;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main
-    .map-bottom-wrapper {
-    flex-direction: column;
-    &:nth-child(1) {
-      p {
-        margin-left: 10px;
-      }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card .cx-mb-20{
+      margin-bottom: 15px !important;
     }
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main
-    .map-bottom-wrapper
-    .map-location-icons
-    img {
-    margin-right: 11px;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .RouteSummary
-    .RouteSummary_main
-    .RouteSummary_body
-    .Track_Body
-    .Step_wise_Route
-    .DropBusLogo {
-    top: 90px;
-  }
-  #ViewAuthorisedPerson .view_wrapper .Header .View_img{
-    left: 2px;
-  }
-  #CreateAuthorisedPerson .view_wrapper .Header .View_img{
-    left: -8px;
-  }
-  .mydiary_wrapper .week-calendar-wrapper .col-center {
-    margin: 0;
-  }
-  .mydiary_wrapper .week-calendar-wrapper .number {
-    font-size: 10px;
-  }
-  .mydiary_wrapper .week-calendar-wrapper .today p {
-    padding: 0px 12px;
-  }
-  .mydiary_wrapper .week-calendar-wrapper {
-    height: 150px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-list-wrapper
-    .mydiary-list
-    .mydiary-list-heading
-    p::after {
-    width: 48%;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .comment-heading
-    p::after {
-    width: 56%;
-  }
-  .commenting-person,
-  .commented {
-    margin-left: 0;
-  }
-  .commenting-person {
-    margin-top: 0.5rem;
-  }
-  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-list-wrapper,
-  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper {
-    width: 88.5%;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .time-stamp
-    .time,
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .time-stamp
-    .priority-details,
-  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
-    font-size: 10px !important;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .img-box-wrapper {
-    margin-bottom: 5px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .img-box-wrapper
-    img {
-    margin-right: 10px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .img-box-wrapper
-    img {
-    width: 46%;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-list-wrapper
-    .mydiary-list
-    .mydiary-list-heading
-    p,
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .comment-heading
-    p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-list-wrapper
-    .mydiary-list
-    .mydiary-single-item
-    .msi-text-box
-    .mt-heading
-    p {
-    font-size: 14px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-list-wrapper
-    .mydiary-list
-    .mydiary-single-item
-    .msi-text-box
-    .mt-details
-    p:first-child,
-  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red {
-    font-size: 10px;
-  }
-  .mydiary_wrapper .mydiary-tabs-wrapper .priority-red,
-  .mydiary_wrapper .mydiary-tabs-wrapper .priority-purple {
-    margin: 0 5px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-title
-    p,
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .main-diary-title
-    p {
-    font-size: 15px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-title {
-    padding-bottom: 10px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .main-diary-title {
-    margin-top: 10px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .main-diary-details-wrapper
-    .md-text-box
-    p {
-    font-size: 13px;
-  }
-  .mydiary_wrapper .week-calendar-wrapper .current-month {
-    font-size: 14px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .comment
-    .commenting-person
-    p,
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .sub-comment
-    .commenting-person
-    p {
-    font-size: 13px;
-    line-height: 12px;
-  }
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .comment
-    .commented
-    p,
-  .mydiary_wrapper
-    .mydiary-tabs-wrapper
-    .mydiary-detail-wrapper
-    .md-inner-wrapper
-    .comment-box
-    .sub-comment
-    .commented
-    p {
-    font-size: 13px;
-    line-height: 15px;
-  }
-  .registration-main .bottom-wrapper .button-wrapper {
-    flex-direction: column;
-  }
-  .registration-main .bottom-wrapper .button-wrapper .right-button {
-    flex-direction: column;
-    width: 100%;
-  }
-  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-2 {
-    width: 100%;
-    margin-bottom: 1rem;
-    height: 40px;
-    font-size: 1rem;
-  }
-  .registration-main .bottom-wrapper .button-wrapper .right-button .cx-btn-1 {
-    width: 100%;
-    margin: 0;
-    height: 40px;
-    font-size: 1rem;
-  }
-  .registration-main .registration-auth-wrapper .registration-card {
-    width: 100%;
-  }
-  .registration-main .registration-auth-wrapper .registration-card {
-    padding: 35px 15px 10px 15px;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .profileCard {
-    padding: 0;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .profileCard
-    .userCard
-    .UserImg {
-    width: 50px;
-    height: 50px;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .profileCard {
-    height: 60px;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .profileCard
-    .userCard
-    .UserImg {
-    top: -6px;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .profileCard
-    .userCard
-    .imgSelector
-    .editImg {
-    top: 25px;
-    left: 50px;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .top-school-name
-    p {
-    font-size: 20px;
-    margin-top: 1rem;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .top-heading-section {
-    margin: 20px 0 20px 0;
-  }
-  .registration-main .bottom-wrapper .login-register-btn {
-    width: 100%;
-  }
-  .registration-main .bottom-wrapper .left-button {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .top-heading-section
-    p {
-    font-size: 13px;
-  }
-  .registration-main .registration-auth-wrapper .fieldSetCUST .legendHere {
-    font-size: 10px;
-  }
-  .registration-main .registration-auth-wrapper .registration-card .brand-logo {
-    width: 160px !important;
-  }
-  .registration-main
-    .registration-auth-wrapper
-    .registration-card
-    .fieldSetCUST {
-    margin-bottom: 15px !important;
-  }
-  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
-    margin-bottom: 15px !important;
-  }
 }
 
 @media all and (max-width: 360px) {
-  .mydiary_wrapper .mydiary-tabs-wrapper .mydiary-detail-wrapper .md-inner-wrapper{
-    height: 97.5%;
-  }
-  #ViewAuthorisedPerson .view_wrapper .Header .View_img{
-    left: 2px;
-  }
-  #CreateAuthorisedPerson .view_wrapper .Header .View_img{
-    left: -8px;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .RouteSummary
-    .RouteSummary_main
-    .RouteSummary_body
-    .Track_Body
-    .Step_wise_Route
-    .DropBusLogo {
-    top: 90px;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main {
-    height: 100vh;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main {
-    height: 73vh;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main
-    .map-bottom-wrapper {
-    flex-direction: column;
-  }
-  #Bustracking_main
-    .BusTacking_Top_tabs
-    .PickUP
-    .Mapsection
-    .RouteSummary_main
-    .google-map
-    .map-main
-    .map-bottom-wrapper
-    .map-location-icons
-    img {
-    margin-right: 11px;
-  }
-  .personal_details .mainLandingCard .profileCard .userCard .UserName,
-  .edit_details .mainLandingCard .profileCard .userCard .UserName,
-  .change_password .mainLandingCard .profileCard .userCard .UserName,
-  .New_registration .mainLandingCard .profileCard .userCard .UserName,
-  .Edit_Registration .mainLandingCard .profileCard .userCard .UserName,
-  .viewKids_details .mainLandingCard .profileCard .userCard .UserName,
-  .Edit_KidsDetails .mainLandingCard .profileCard .userCard .UserName,
-  .Id_cards .mainLandingCard .profileCard .userCard .UserName,
-  .View_Registration .mainLandingCard .profileCard .userCard .UserName,
-  .Invoice_fee .mainLandingCard .profileCard .userCard .UserName,
-  .Certificate .mainLandingCard .profileCard .userCard .UserName {
-    font-size: 12px;
-  }
-  .transfer_certificate .bigCard,
-  .Request_NewTc .bigCard {
-    margin-top: 25px;
-  }
-  .Certificate .certificateCard .insideCertificate {
-    width: 72vw;
-  }
-  .AboutCourseDetails
-    .course-topic-details-wrapper
-    .course-topic-details
-    .smd-btn-wrapper
-    button {
-    margin-right: 5px;
-  }
-  .topic-accordion-wrapper .accordion-item:first-of-type .accordion-button {
-    margin-top: 10px;
-  }
-  .Assignment .assignment-details-wrapper .ad-img-box2 {
-    justify-content: flex-start;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .assignment-accordion-wrapper
-    .assignment-accordion
-    .question-wrapper
-    .question-choices {
-    padding: 0;
-  }
   .green-btn-1 {
     padding: 5px 8px;
     font-size: 10px;
@@ -1488,28 +748,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .p-accordion
-    .p-accordion-header:not(.p-disabled).p-highlight
-    .p-accordion-header-link::after {
-    left: 130px;
-  }
-  .Assignment
-    .assignment-main-wrapper
-    .p-accordion
-    .p-accordion-header:not(.p-disabled).p-highlight
-    .p-accordion-header-link::before {
-    top: 21px;
-    left: 141px;
-  }
-  .filter-wrapper .fw-input-fields .p-inputtext {
-    height: 25px;
-    margin-bottom: 10px;
-  }
-  .filter-wrapper .fw-input-fields .p-button {
-    margin-right: 10px;
   }
   .Attendance_calender .breadcrumb-wrapper .breadcrumb p {
     font-size: 13px;
@@ -1735,14 +973,14 @@
       top: -16px;
     }
     .fieldSetCUST .caledarImg {
-      // width: 14px;
-      // top: 8px;
+      width: 14px;
+      top: 8px;
     }
     .fieldSetCUST .form-select:invalid {
-      // font-size: 10px;
+      font-size: 10px;
     }
     .fieldSetCUST .form-select {
-      // height: auto;
+      height: auto;
     }
     .form-wrapper .form-control {
       padding: 10px 14px;
@@ -1920,7 +1158,9 @@
     .fieldSetCUST {
     margin-bottom: 15px !important;
   }
-  .registration-main .registration-auth-wrapper .registration-card .cx-mb-20 {
-    margin-bottom: 15px !important;
-  }
+  .registration-main
+    .registration-auth-wrapper
+    .registration-card .cx-mb-20{
+      margin-bottom: 15px !important;
+    }
 }

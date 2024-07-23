@@ -34,7 +34,7 @@ const Topic = () => {
                       </div>
                       <div className="col-xl-7 col-lg-7 col-md-7 col-sm-8 col-8 d-flex align-items-center">
                         <div className="topic-text-box">
-                          <div className="ad-heading"><p>Lesson 01</p></div>
+                          <div className="ad-heading">Lesson 01</div>
                           <div className="topic-list">
                             <span className="me-3">Start Date </span>
                             21-02-2023
@@ -62,7 +62,7 @@ const Topic = () => {
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><p>Topic 01</p></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -95,7 +95,7 @@ const Topic = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -129,7 +129,7 @@ const Topic = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -163,7 +163,7 @@ const Topic = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                       <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -190,7 +190,7 @@ const Topic = () => {
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><p>Topic 01</p></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -223,7 +223,7 @@ const Topic = () => {
                                   <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01:</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>

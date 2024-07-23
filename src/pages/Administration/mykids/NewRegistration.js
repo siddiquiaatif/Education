@@ -5,51 +5,20 @@ import Sidebar from "../../../sharedComponents/Sidebar";
 import Form from 'react-bootstrap/Form';
 import { Calendar } from 'primereact/calendar';
 import CalendarImg from "../../../assets/images/calendar.svg";
-import { Navigate, useNavigate } from "react-router-dom";
-
 
 const NewRegistration = () => {
     const [date, setDate] = useState(null);
     const [validated, setValidated] = useState(false);
-    const navigate = useNavigate();
-
-    const [registrationData, setRegistrationData] = useState({
-        LeaveStartDate: null,
-        LeaveEndDate: null,
-        LeaveType: "",
-        LeaveMode: "",
-        LeaveReason: "",
-      });
-    
-      console.log(registrationData , "Leave Data");
 
     const handleSubmit = (event) => {
-        event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
         }
-        else{
-            apicall();
-          }
+
         setValidated(true);
     };
-
-    const handleCancel = () => {
-        setRegistrationData({
-          StudentFirstName: "",
-          StudentLastName: "",
-          Gender: "",
-          DOB: "",
-          Grade: "",
-          Syllabus: "",
-        });
-      };
-    const apicall =() =>{
-      // alert("Api Call Success");
-      navigate("/Leaves");
-    }
 
     return (
         <main id="cx-main" className="New_registration">
@@ -111,12 +80,12 @@ const NewRegistration = () => {
                                         className="dateChapter" />
                                     <span className='legendHere'>Date Of Birth<span className='ashhStar'> &#42;</span> </span>
                                     <img src={CalendarImg} className="caledarImg" alt="" />
-                                    {/* <span className='legendHere'>Grade<span className='ashhStar'> &#42;</span> </span> */}
+                                    <span className='legendHere'>Student Last Name<span className='ashhStar'> &#42;</span> </span>
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12 cx-mb-25">
                                 <div className="fieldSetCUST">
-                                    <span className='legendHere'>Grade<span className='ashhStar'> &#42;</span> </span>
+                                    <span className='legendHere'>Gender<span className='ashhStar'> &#42;</span> </span>
                                     <Form.Select class="form-select" required aria-label="Default select example">
                                         <option value="">Grade</option>
                                         <option value="1">One</option>
@@ -130,7 +99,7 @@ const NewRegistration = () => {
                             </div>
                             <div className="col-md-6 col-sm-12 cx-mb-25">
                                 <div className="fieldSetCUST">
-                                    <span className='legendHere'>Syllabus<span className='ashhStar'> &#42;</span> </span>
+                                    <span className='legendHere'>Gender<span className='ashhStar'> &#42;</span> </span>
                                     <Form.Select class="form-select" required aria-label="Default select example">
                                         <option value="">Syllabus</option>
                                         <option value="1">One</option>

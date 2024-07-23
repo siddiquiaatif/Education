@@ -11,16 +11,6 @@ import SubHeader from "../../sharedComponents/SubHeader";
 import { Navigate, useNavigate } from "react-router-dom";
 
 const Leaves = () => {
-  const [leaveData, setLeaveData] = useState({
-    LeaveStartDate: null,
-    LeaveEndDate: null,
-    LeaveType: "",
-    LeaveMode: "",
-    LeaveReason: "",
-  });
-
-  console.log(leaveData , "Leave Data");
-
   const [showBlank, setShowBlank] = useState(false);
   const handleShowBlank = () => setShowBlank(true);
   const [date, setDate] = useState(null);
@@ -29,42 +19,20 @@ const Leaves = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
     }
-    else{
-      apicall();
-    }
 
     setValidated(true);
   };
 
-  const handleCancel = () => {
-    setLeaveData({
-      LeaveStartDate: null,
-      LeaveEndDate: null,
-      LeaveType: "",
-      LeaveMode: "",
-      LeaveReason: "",
-    });
-  };
-const apicall =() =>{
-  // alert("Api Call Success");
-  navigate("/Leaves");
-}
-
-
-
-
-
-
   return (
     <main id="cx-main" className="Apply_leave">
+      
       <div className="cx-main-card">
-        <SubHeader />
+      <SubHeader />
         <div className="form-wrapper">
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <div
@@ -82,15 +50,13 @@ const apicall =() =>{
                 <div className="col-md-6 col-sm-12">
                   <div className="fieldSetCUST cx-mb-25">
                     <Calendar
-                      value={leaveData.LeaveStartDate}
-                      onChange={(e) =>
-                        setLeaveData({ ...leaveData, LeaveStartDate: e.value })
-                      }
-                      placeholder="Select Date"
+                      value={date}
+                      onChange={(e) => setDate(e.value)}
+                      placeholder="21-02-2023"
                       className="dateChapter"
                     />
                     <span className="legendHere">
-                      Leave From Date<span className="ashhStar"> &#42;</span>{" "}
+                    Leave From Date<span className="ashhStar"> &#42;</span>{" "}
                     </span>
                     <img src={CalendarImg} className="caledarImg" alt="" />
                   </div>
@@ -98,11 +64,9 @@ const apicall =() =>{
                 <div className="col-md-6 col-sm-12">
                   <div className="fieldSetCUST cx-mb-25">
                     <Calendar
-                      value={leaveData.LeaveEndDate}
-                      onChange={(e) =>
-                        setLeaveData({ ...leaveData, LeaveEndDate: e.value })
-                      }
-                      placeholder="Select Date"
+                      value={date}
+                      onChange={(e) => setDate(e.value)}
+                      placeholder="21-02-2023"
                       className="dateChapter"
                     />
                     <span className="legendHere">
@@ -120,18 +84,11 @@ const apicall =() =>{
                       class="form-select"
                       required
                       aria-label="Default select example"
-                      value={leaveData.LeaveType}
-                      onChange={(e) =>
-                        setLeaveData({
-                          ...leaveData,
-                          LeaveType: e.target.value,
-                        })
-                      }
                     >
                       <option value="">Select Leave Type...</option>
-                      <option value="Paid Leave">Paid Leave</option>
-                      <option value="Unpaid Leave">Unpaid Leave</option>
-                      <option value="Emergency Leave">Emergency Leave</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
                     </Form.Select>
                     <Form.Control.Feedback type="invalid">
                       Please Select Leave Type.
@@ -147,18 +104,11 @@ const apicall =() =>{
                       class="form-select"
                       required
                       aria-label="Default select example"
-                      value={leaveData.LeaveMode}
-                      onChange={(e) =>
-                        setLeaveData({
-                          ...leaveData,
-                          LeaveMode: e.target.value,
-                        })
-                      }
                     >
-                      <option value="">Select Leave Type...</option>
-                      <option value="Paid Leave">Paid Leave</option>
-                      <option value="Unpaid Leave">Unpaid Leave</option>
-                      <option value="Emergency Leave">Emergency Leave</option>
+                      <option value="">Select Leave Mode...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
                     </Form.Select>
                     <Form.Control.Feedback type="invalid">
                       Please Select Gender.
@@ -175,13 +125,6 @@ const apicall =() =>{
                       as="textarea"
                       rows={4}
                       placeholder="Write reason for leave..."
-                      value={leaveData.LeaveReason}
-                      onChange={(e) =>
-                        setLeaveData({
-                          ...leaveData,
-                          LeaveReason: e.target.value,
-                        })
-                      }
                     />
                     <Form.Control.Feedback type="invalid">
                       Write reason for leave...
@@ -189,13 +132,7 @@ const apicall =() =>{
                   </div>
                 </div>
                 <div className="main-btn-wrapper">
-                  <button
-                    type="button"
-                    className="cx-btn-2"
-                    onClick={handleCancel}
-                  >
-                    Cancel
-                  </button>
+                  <button className="cx-btn-2" onClick={() => navigate("/Leaves")}>Cancel</button>
                   <button className="cx-btn-1">Apply Leave</button>
                 </div>
               </div>

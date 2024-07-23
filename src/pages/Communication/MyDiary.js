@@ -36,16 +36,16 @@ const MyDiary = () => {
     <main id="cx-main" className="Dashboard">
       <div
         className="cx-main-card"
-        // data-aos="zoom-in"
-        // data-aos-duration="500"
-        // id="Bustracking_main"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        id="Bustracking_main"
       >
         <SubHeader />
         <div
           className="mydiary_wrapper"
           data-aos="zoom-in"
           data-aos-duration="500"
-          // id="cx-wrapper"
+          id="cx-wrapper"
         >
           <div className="row g-0">
             <div className="col-md-12">
@@ -69,11 +69,7 @@ const MyDiary = () => {
                                 <div className="row g-0">
                                   <div className="col-lg-2 col-md-2 col-sm-2">
                                     <div className="msi-img-box">
-                                      <img
-                                        src={diary_icon}
-                                        alt=""
-                                        className="img-fluid"
-                                      />
+                                      <img src={diary_icon} alt="" className="img-fluid"/>
                                     </div>
                                   </div>
                                   <div className="col-lg-9 col-md-9 col-sm-8">
@@ -87,7 +83,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -133,7 +129,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -179,7 +175,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -225,7 +221,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -271,7 +267,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -317,7 +313,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -366,7 +362,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -412,7 +408,7 @@ const MyDiary = () => {
                                           <span className="priority-red">
                                             High
                                           </span>
-                                          l &nbsp; Category
+                                          l Category
                                           <span className="priority-purple">
                                             Home-Work
                                           </span>
@@ -446,15 +442,11 @@ const MyDiary = () => {
                     <div className="mydiary-detail-wrapper">
                       <Tab.Content>
                         <Tab.Pane eventKey="0">
-                          <div className="md-inner-wrapper md-inner-wrapper2">
+                          <div className="md-inner-wrapper">
                             <div className="main-diary-title">
                               <p>Diary Communication</p>
                               <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
+                                <img src={diary_icon2} alt=""  className="img-fluid"/>
                               </span>
                             </div>
                             <div className="main-diary-details-wrapper">
@@ -504,11 +496,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-lg-1 col-md-1 col-sm-2 order-sm-0">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-lg-10 col-md-9 col-sm-8 order-sm-2">
@@ -524,11 +512,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-lg-1 col-md-2 col-sm-2 order-sm-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn_active}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn_active} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -537,11 +521,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar2} alt=""  className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -557,11 +537,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -576,11 +552,7 @@ const MyDiary = () => {
                                     />
                                   </Form.Group>
                                   <div className="comment-btn">
-                                    <img
-                                      src={comment_btn}
-                                      alt=""
-                                      className="img-fluid"
-                                    />
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
                                   </div>
                                 </Form>
                               </div>
@@ -588,26 +560,18 @@ const MyDiary = () => {
                           </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="1">
-                         <div className="md-inner-wrapper md-inner-wrapper2">
+                          <div className="md-inner-wrapper">
                             <div className="main-diary-title">
                               <p>Diary Communication</p>
                               <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
                               </span>
                             </div>
                             <div className="main-diary-details-wrapper">
                               <div className="main-diary-title">
                                 <p>Homework</p>
                                 <span>
-                                  <img
-                                    src={like_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
+                                  <img src={like_btn} alt="" className="img-fluid"/>
                                 </span>
                               </div>
                               <div className="md-text-box">
@@ -650,11 +614,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar} alt=""className="img-fluid" />
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -679,11 +639,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar2} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -699,153 +655,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="comment-input-field">
-                              <Form className="comment-form">
-                                <Form.Group controlId="formBasicEmail">
-                                  <Form.Control
-                                    type="text"
-                                    placeholder="Write comment here..."
-                                  />
-                                </Form.Group>
-                                <div className="comment-btn">
-                                  <img
-                                    src={comment_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
-                                </div>
-                              </Form>
-                            </div>
-                          </div>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="2">
-                         <div className="md-inner-wrapper md-inner-wrapper2">
-                            <div className="main-diary-title">
-                              <p>Diary Communication</p>
-                              <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
-                              </span>
-                            </div>
-                            <div className="main-diary-details-wrapper">
-                              <div className="main-diary-title">
-                                <p>Homework</p>
-                                <span>
-                                  <img
-                                    src={like_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
-                                </span>
-                              </div>
-                              <div className="md-text-box">
-                                <p>
-                                  It is a long established fact that a reader
-                                  will be distracted by the readable content of
-                                  a page when looking at its layout. The point
-                                  of using Lorem Ipsum is that it has a
-                                  more-or-less normal distribution of letters,
-                                  as opposed to using 'Content here, content
-                                  here', making it look like readable English.
-                                  Many desktop publishing packages and web page
-                                  editors now use Lorem Ipsum as their default
-                                  model text, and a search for 'lorem ipsum'
-                                  will uncover many web sites still in their
-                                  infancy. Various versions have evolved over
-                                  the years.
-                                </p>
-                              </div>
-                              <div className="time-stamp">
-                                <p className="priority-details">
-                                  Priority{" "}
-                                  <span className="priority-red">High</span>
-                                </p>
-                                <p className="time">
-                                  Mon 1st March, 2023 02:41 PM
-                                </p>
-                              </div>
-                              <div className="img-box-wrapper">
-                                <img src={diary_img_1} alt="" />
-                                <img src={diary_img_2} alt="" />
-                                <img src={diary_img_3} alt="" />
-                                <img src={diary_img_4} alt="" />
-                              </div>
-                              <div className="comment-box">
-                                <div className="comment-heading">
-                                  <p>Comments</p>
-                                </div>
-                                <div className="comment">
-                                  <div className="row g-0">
-                                    <div className="col-md-1">
-                                      <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div className="col-md-10">
-                                      <div className="commenting-person">
-                                        <p>Parent Name</p>
-                                      </div>
-                                      <div className="commented">
-                                        <p>
-                                          The Parent comment will be shown
-                                          here...
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div className="col-md-1">
-                                      <div className="comment-like-btn">
-                                        <img src={like_btn_active} alt="" />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="sub-comment">
-                                  <div className="row g-0">
-                                    <div className="col-md-1">
-                                      <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div className="col-md-10">
-                                      <div className="commenting-person">
-                                        <p>Teacher Name</p>
-                                      </div>
-                                      <div className="commented">
-                                        <p>
-                                          The Teacher comment will be shown
-                                          here...
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div className="col-md-1">
-                                      <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -860,11 +670,189 @@ const MyDiary = () => {
                                     />
                                   </Form.Group>
                                   <div className="comment-btn">
-                                    <img
-                                      src={comment_btn}
-                                      alt=""
-                                      className="img-fluid"
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
+                                  </div>
+                                </Form>
+                              </div>
+                            </div>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="2">
+                          <div className="md-inner-wrapper">
+                            <div className="main-diary-title">
+                              <p>Diary Communication</p>
+                              <span>
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
+                              </span>
+                            </div>
+                            <div className="main-diary-details-wrapper">
+                              <div className="main-diary-title">
+                                <p>Homework</p>
+                                <span>
+                                  <img src={like_btn} alt="" className="img-fluid"/>
+                                </span>
+                              </div>
+                              <div className="md-text-box">
+                                <p>
+                                  It is a long established fact that a reader
+                                  will be distracted by the readable content of
+                                  a page when looking at its layout. The point
+                                  of using Lorem Ipsum is that it has a
+                                  more-or-less normal distribution of letters,
+                                  as opposed to using 'Content here, content
+                                  here', making it look like readable English.
+                                  Many desktop publishing packages and web page
+                                  editors now use Lorem Ipsum as their default
+                                  model text, and a search for 'lorem ipsum'
+                                  will uncover many web sites still in their
+                                  infancy. Various versions have evolved over
+                                  the years.
+                                </p>
+                              </div>
+                              <div className="time-stamp">
+                                <p className="priority-details">
+                                  Priority{" "}
+                                  <span className="priority-red">High</span>
+                                </p>
+                                <p className="time">
+                                  Mon 1st March, 2023 02:41 PM
+                                </p>
+                              </div>
+                              <div className="img-box-wrapper">
+                                <img src={diary_img_1} alt="" />
+                                <img src={diary_img_2} alt="" />
+                                <img src={diary_img_3} alt="" />
+                                <img src={diary_img_4} alt="" />
+                              </div>
+                              <div className="comment-box">
+                                <div className="comment-heading">
+                                  <p>Comments</p>
+                                </div>
+                                <div className="comment">
+                                  <div className="row g-0">
+                                    <div className="col-md-1">
+                                      <div className="c-img-box">
+                                        <img src={comment_avatar} alt="" className="img-fluid"/>
+                                      </div>
+                                    </div>
+                                    <div className="col-md-10">
+                                      <div className="commenting-person">
+                                        <p>Parent Name</p>
+                                      </div>
+                                      <div className="commented">
+                                        <p>
+                                          The Parent comment will be shown
+                                          here...
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="col-md-1">
+                                      <div className="comment-like-btn">
+                                        <img src={like_btn_active} alt="" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div className="sub-comment">
+                                  <div className="row g-0">
+                                    <div className="col-md-1">
+                                      <div className="c-img-box">
+                                        <img src={comment_avatar2} alt="" className="img-fluid"/>
+                                      </div>
+                                    </div>
+                                    <div className="col-md-10">
+                                      <div className="commenting-person">
+                                        <p>Teacher Name</p>
+                                      </div>
+                                      <div className="commented">
+                                        <p>
+                                          The Teacher comment will be shown
+                                          here...
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="col-md-1">
+                                      <div className="comment-like-btn">
+                                        <img src={like_btn} alt="" className="img-fluid"/>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="comment-input-field">
+                                <Form className="comment-form">
+                                  <Form.Group controlId="formBasicEmail">
+                                    <Form.Control
+                                      type="text"
+                                      placeholder="Write comment here..."
                                     />
+                                  </Form.Group>
+                                  <div className="comment-btn">
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
+                                  </div>
+                                </Form>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="md-inner-wrapper">
+                            <div className="main-diary-title">
+                              <p>Diary Communication</p>
+                              <span>
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
+                              </span>
+                            </div>
+                            <div className="main-diary-details-wrapper">
+                              <div className="main-diary-title">
+                                <p>Homework</p>
+                                <span>
+                                  <img src={like_btn} alt="" className="img-fluid"/>
+                                </span>
+                              </div>
+                              <div className="md-text-box">
+                                <p>
+                                  It is a long established fact that a reader
+                                  will be distracted by the readable content of
+                                  a page when looking at its layout. The point
+                                  of using Lorem Ipsum is that it has a
+                                  more-or-less normal distribution of letters,
+                                  as opposed to using 'Content here, content
+                                  here', making it look like readable English.
+                                  Many desktop publishing packages and web page
+                                  editors now use Lorem Ipsum as their default
+                                  model text, and a search for 'lorem ipsum'
+                                  will uncover many web sites still in their
+                                  infancy. Various versions have evolved over
+                                  infancy. Various versions have evolved over
+                                  infancy. Various versions have evolved over
+                                  the years.
+                                </p>
+                              </div>
+                              <div className="time-stamp">
+                                <p className="priority-details">
+                                  Priority{" "}
+                                  <span className="priority-red">High</span>
+                                </p>
+                                <p className="time">
+                                  Mon 1st March, 2023 02:41 PM
+                                </p>
+                              </div>
+                              <div className="img-box-wrapper">
+                                <img src={diary_img_1} alt="" />
+                                <img src={diary_img_2} alt="" />
+                                <img src={diary_img_3} alt="" />
+                                <img src={diary_img_4} alt="" />
+                              </div>
+
+                              <div className="comment-input-field">
+                                <Form className="comment-form">
+                                  <Form.Group controlId="formBasicEmail">
+                                    <Form.Control
+                                      type="text"
+                                      placeholder="Write comment here..."
+                                    />
+                                  </Form.Group>
+                                  <div className="comment-btn">
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
                                   </div>
                                 </Form>
                               </div>
@@ -872,26 +860,18 @@ const MyDiary = () => {
                           </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="3">
-                         <div className="md-inner-wrapper md-inner-wrapper2">
+                          <div className="md-inner-wrapper">
                             <div className="main-diary-title">
                               <p>Diary Communication</p>
                               <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
                               </span>
                             </div>
                             <div className="main-diary-details-wrapper">
                               <div className="main-diary-title">
                                 <p>Homework</p>
                                 <span>
-                                  <img
-                                    src={like_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
+                                  <img src={like_btn} alt="" className="img-fluid"/>
                                 </span>
                               </div>
                               <div className="md-text-box">
@@ -934,11 +914,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -954,11 +930,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn_active}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn_active} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -967,11 +939,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar2} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -987,11 +955,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -1006,11 +970,7 @@ const MyDiary = () => {
                                     />
                                   </Form.Group>
                                   <div className="comment-btn">
-                                    <img
-                                      src={comment_btn}
-                                      alt=""
-                                      className="img-fluid"
-                                    />
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
                                   </div>
                                 </Form>
                               </div>
@@ -1018,26 +978,18 @@ const MyDiary = () => {
                           </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="4">
-                         <div className="md-inner-wrapper md-inner-wrapper2">
+                          <div className="md-inner-wrapper">
                             <div className="main-diary-title">
                               <p>Diary Communication</p>
                               <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
                               </span>
                             </div>
                             <div className="main-diary-details-wrapper">
                               <div className="main-diary-title">
                                 <p>Homework</p>
                                 <span>
-                                  <img
-                                    src={like_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
+                                  <img src={like_btn} alt="" className="img-fluid"/>
                                 </span>
                               </div>
                               <div className="md-text-box">
@@ -1080,11 +1032,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -1100,11 +1048,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn_active}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn_active} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -1113,11 +1057,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar2} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -1133,11 +1073,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -1152,11 +1088,7 @@ const MyDiary = () => {
                                     />
                                   </Form.Group>
                                   <div className="comment-btn">
-                                    <img
-                                      src={comment_btn}
-                                      alt=""
-                                      className="img-fluid"
-                                    />
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
                                   </div>
                                 </Form>
                               </div>
@@ -1164,26 +1096,18 @@ const MyDiary = () => {
                           </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="5">
-                         <div className="md-inner-wrapper md-inner-wrapper2">
+                          <div className="md-inner-wrapper">
                             <div className="main-diary-title">
                               <p>Diary Communication</p>
                               <span>
-                                <img
-                                  src={diary_icon2}
-                                  alt=""
-                                  className="img-fluid"
-                                />
+                                <img src={diary_icon2} alt="" className="img-fluid"/>
                               </span>
                             </div>
                             <div className="main-diary-details-wrapper">
                               <div className="main-diary-title">
                                 <p>Homework</p>
                                 <span>
-                                  <img
-                                    src={like_btn}
-                                    alt=""
-                                    className="img-fluid"
-                                  />
+                                  <img src={like_btn} alt="" className="img-fluid"/>
                                 </span>
                               </div>
                               <div className="md-text-box">
@@ -1226,11 +1150,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -1246,11 +1166,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn_active}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn_active} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -1259,11 +1175,7 @@ const MyDiary = () => {
                                   <div className="row g-0">
                                     <div className="col-md-1">
                                       <div className="c-img-box">
-                                        <img
-                                          src={comment_avatar2}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={comment_avatar2} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                     <div className="col-md-10">
@@ -1279,11 +1191,7 @@ const MyDiary = () => {
                                     </div>
                                     <div className="col-md-1">
                                       <div className="comment-like-btn">
-                                        <img
-                                          src={like_btn}
-                                          alt=""
-                                          className="img-fluid"
-                                        />
+                                        <img src={like_btn} alt="" className="img-fluid"/>
                                       </div>
                                     </div>
                                   </div>
@@ -1298,11 +1206,7 @@ const MyDiary = () => {
                                     />
                                   </Form.Group>
                                   <div className="comment-btn">
-                                    <img
-                                      src={comment_btn}
-                                      alt=""
-                                      className="img-fluid"
-                                    />
+                                    <img src={comment_btn} alt="" className="img-fluid"/>
                                   </div>
                                 </Form>
                               </div>

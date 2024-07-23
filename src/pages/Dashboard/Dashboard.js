@@ -21,8 +21,8 @@ import Calendar from "react-calendar";
 import { TabPanel, TabView } from "primereact/tabview";
 import { AppContext } from "../../context/AppContext";
 import MapComponent from "../../sharedComponents/MapComponent";
-import { Dialog } from "primereact/dialog";
-import { Tooltip } from "primereact/tooltip";
+import { Dialog } from 'primereact/dialog';
+import { Tooltip } from 'primereact/tooltip';
 
 const Dashboard = () => {
   const [show, setShow] = useState(false);
@@ -32,7 +32,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     setRenderModal(!renderModal);
-  }, []);
+  }, [])
 
   return (
     <main id="cx-main" className="Dashboard">
@@ -77,7 +77,7 @@ const Dashboard = () => {
                               16<span>yrs</span>
                             </p>
                           </div>
-                          <Link to="/PersonalDetails">
+                          <Link to="#">
                             <div>
                               <p>Go to Profile</p>
                               <img src={GOToProfile} alt="" />
@@ -146,11 +146,7 @@ const Dashboard = () => {
                     <div className="single_kide row g-3">
                       <div className="col-lg-3 border-dash">
                         <div className="photo ">
-                          <img
-                            src={Kids_Prifile_2}
-                            alt=""
-                            className="kids_img"
-                          />
+                          <img src={Kids_Prifile_2} alt="" className="kids_img" />
                           <p className="kids_name">Emma Watson</p>
                           <div className="Gender">
                             <p className="mail">F</p>
@@ -158,7 +154,7 @@ const Dashboard = () => {
                               22<span>yrs</span>
                             </p>
                           </div>
-                          <Link to="/PersonalDetails">
+                          <Link to="#">
                             <div>
                               <p>Go to Profile</p>
                               <img src={GOToProfile} alt="" />
@@ -295,9 +291,7 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="right ">
-                          <p className="">
-                            <Link to="/VideoConference">Join Now</Link>
-                          </p>
+                          <p className="">Join Now</p>
                         </div>
                       </div>
                       <div className="singleUpComingMeeting">
@@ -309,9 +303,7 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="right ">
-                         <p className="">
-                            <Link to="/VideoConference">Join Now</Link>
-                          </p>
+                          <p className="">Join Now</p>
                         </div>
                       </div>
                       <div className="singleUpComingMeeting">
@@ -323,9 +315,7 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="right ">
-                         <p className="">
-                            <Link to="/VideoConference">Join Now</Link>
-                          </p>
+                          <p className="">Join Now</p>
                         </div>
                       </div>
                       <div className="singleUpComingMeeting">
@@ -337,9 +327,67 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="right">
-                         <p className="">
-                            <Link to="/VideoConference">Join Now</Link>
-                          </p>
+                          <p className="">Join Now</p>
+                        </div>
+                      </div>
+                      <div className="singleUpComingMeeting">
+                        <div className="left">
+                          <img src={Lac_Social} alt="" />
+                          <div className="subject">
+                            <p>Geography</p>
+                            <p className="timeing">02:00 - 03:00 PM</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <p className="">Join Now</p>
+                        </div>
+                      </div>
+                      <div className="singleUpComingMeeting">
+                        <div className="left">
+                          <img src={Lac_Math} alt="" />
+                          <div className="subject">
+                            <p>History</p>
+                            <p className="timeing">02:00 - 03:00 PM</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <p className="">Join Now</p>
+                        </div>
+                      </div>
+                      <div className="singleUpComingMeeting">
+                        <div className="left">
+                          <img src={Lac_Science} alt="" />
+                          <div className="subject">
+                            <p>English Literature</p>
+                            <p className="timeing">02:00 - 03:00 PM</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <p className="">Join Now</p>
+                        </div>
+                      </div>
+                      <div className="singleUpComingMeeting">
+                        <div className="left">
+                          <img src={Lac_Social} alt="" />
+                          <div className="subject">
+                            <p>pharmaceutics</p>
+                            <p className="timeing">02:00 - 03:00 PM</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <p className="">Join Now</p>
+                        </div>
+                      </div>
+                      <div className="singleUpComingMeeting">
+                        <div className="left">
+                          <img src={Lac_Math} alt="" />
+                          <div className="subject">
+                            <p>Strategic Management</p>
+                            <p className="timeing">02:00 - 03:00 PM</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <p className="">Join Now</p>
                         </div>
                       </div>
                     </div>
@@ -355,25 +403,21 @@ const Dashboard = () => {
             <div className="Assignments ">
               <div className="head">
                 <p className="AssignmentsHeading">Assignments</p>
-                {/* <Tooltip target=".ViewAll" id="ToolTipsName" /> */}
-                <p
-                  className="ViewAll"
+                <Tooltip target=".ViewAll" id="ToolTipsName" />
+                <p className="ViewAll"
                   data-pr-tooltip="Click To see List of Assignments"
                   data-pr-position="right"
                   data-pr-at="right+5 top"
                   data-pr-my="left center-2"
-                  style={{ cursor: "pointer" }}
-                >
-                  <Link to="/Assignment"> View All</Link>
-                </p>
+                  style={{ cursor: 'pointer' }} >View All</p>
               </div>
               <div className="tabel-main-wrpper">
-                <table className="assignment-custom-table">
+                <table>
                   <thead>
                     <tr>
                       <th className="w10">Sr.No</th>
-                      <th className="w15">Subject</th>
-                      <th className="w25 titleAssisment">Title</th>
+                      <th className="w20">Subject</th>
+                      <th className="w30">Title</th>
                       <th className="w15">Created On</th>
                       <th className="w10">Marks</th>
                       <th className="w10"></th>
@@ -382,9 +426,9 @@ const Dashboard = () => {
                   <tbody>
                     <tr>
                       <td className="serial-number ">1</td>
-                      <td>English</td>
-                      <td className="titleAssisment">Vocabulary</td>
-                      <td>20-02-2023</td>
+                      <td >English lorem30</td>
+                      <td >Vocabulary</td>
+                      <td >20-02-2023</td>
                       <td>
                         <span className="pending">Pending</span>
                       </td>
@@ -394,10 +438,10 @@ const Dashboard = () => {
                     </tr>
                     <tr>
                       <td className="serial-number w10">2</td>
-                      <td>Mathematics</td>
-                      <td className="titleAssisment">Differential Equations</td>
-                      <td>03-01-2023</td>
-                      <td>
+                      <td >Mathematics</td>
+                      <td >Differential Equations</td>
+                      <td >03-01-2023</td>
+                      <td >
                         <span className="approved">Approved</span>
                       </td>
                       <td className="text-center">
@@ -406,10 +450,10 @@ const Dashboard = () => {
                     </tr>
                     <tr>
                       <td className="serial-number w10">3</td>
-                      <td>Sciences</td>
-                      <td className="titleAssisment">Forensic Science</td>
-                      <td>12-02-2023</td>
-                      <td>
+                      <td >Sciences</td>
+                      <td >Forensic Science</td>
+                      <td >12-02-2023</td>
+                      <td >
                         <span className="approved">Approved</span>
                       </td>
                       <td className=" text-center">
@@ -418,12 +462,10 @@ const Dashboard = () => {
                     </tr>
                     <tr>
                       <td className="serial-number">4</td>
-                      <td>Geography</td>
-                      <td className="titleAssisment">
-                        Earth's surface and the Plane Surface
-                      </td>
-                      <td>20-02-2023</td>
-                      <td>
+                      <td >Geography</td>
+                      <td >Earth's surface and the human societies</td>
+                      <td >20-02-2023</td>
+                      <td >
                         <span className="approved">Approved</span>
                       </td>
                       <td className=" text-center">
@@ -432,10 +474,46 @@ const Dashboard = () => {
                     </tr>
                     <tr>
                       <td className="serial-number ">5</td>
-                      <td>History</td>
-                      <td className="titleAssisment">presentation</td>
-                      <td>10-12-2022</td>
-                      <td>
+                      <td >History</td>
+                      <td >presentation and interpretation</td>
+                      <td >10-12-2022</td>
+                      <td >
+                        <span className="rejected">Rejected</span>
+                      </td>
+                      <td className=" text-center">
+                        <img src={Assingment_Table_Next} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="serial-number ">5</td>
+                      <td >History</td>
+                      <td className="">presentation and interpretation</td>
+                      <td >10-12-2022</td>
+                      <td >
+                        <span className="rejected">Rejected</span>
+                      </td>
+                      <td className=" text-center">
+                        <img src={Assingment_Table_Next} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="serial-number ">5</td>
+                      <td >History</td>
+                      <td className="">presentation and interpretation</td>
+                      <td >10-12-2022</td>
+                      <td >
+                        <span className="rejected">Rejected</span>
+                      </td>
+                      <td className=" text-center">
+                        <img src={Assingment_Table_Next} alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="serial-number ">5</td>
+                      <td >History</td>
+                      <td className="">presentation and interpretation</td>
+                      <td >10-12-2022</td>
+                      <td >
                         <span className="rejected">Rejected</span>
                       </td>
                       <td className=" text-center">
@@ -451,9 +529,7 @@ const Dashboard = () => {
             <div className="NoticeBoard ">
               <div className="head">
                 <p className="AssignmentsHeading">Notice Board</p>
-                <p className="ViewAll">
-                  <Link to="/NoticeBoard">View All</Link>
-                </p>
+                <p className="ViewAll">View All</p>
               </div>
               <div className="Notice_List">
                 <div className="List">
@@ -498,6 +574,20 @@ const Dashboard = () => {
                     <p className="Date">Date-02-02-2023</p>
                   </div>
                 </div>
+                <div className="List">
+                  <img src={Lac_Math} alt="" />
+                  <div className="subject">
+                    <p>Get Together Invitation</p>
+                    <p className="Date">Date-02-02-2023</p>
+                  </div>
+                </div>
+                <div className="List">
+                  <img src={Lac_Math} alt="" />
+                  <div className="subject">
+                    <p>Get Together Invitation</p>
+                    <p className="Date">Date-02-02-2023</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -506,18 +596,16 @@ const Dashboard = () => {
           <div className="Assignments col-xl-8">
             <div className="head">
               <p className="AssignmentsHeading">Assessment</p>
-              <p className="ViewAll">
-                <Link to="/Assessment">View All</Link>
-              </p>
+              <p className="ViewAll">View All</p>
             </div>
             <div className="tabel-main-wrpper">
               <table>
                 <thead>
                   <tr>
-                    <th className="w10">Sr.No</th>
-                    <th className="w15">Subject</th>
-                    <th className="w20">Created By</th>
-                    <th className="w15">Created On</th>
+                    <th className="w10" >Sr.No</th>
+                    <th className="w20">Subject</th>
+                    <th className="w30">Created By</th>
+                    <th className="w20">Created On</th>
                     <th className="w10">Marks</th>
                     <th className="w10"></th>
                   </tr>
@@ -525,8 +613,8 @@ const Dashboard = () => {
                 <tbody>
                   <tr>
                     <td className="serial-number">1</td>
-                    <td className="titleAssisment">English</td>
-                    <td className="titleAssisment">Mr. John Doe </td>
+                    <td>English</td>
+                    <td>Mr. John Doe </td>
                     <td>20-02-2023</td>
                     <td>
                       <span className="pending-number">55</span>
@@ -537,8 +625,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">2</td>
-                    <td className="titleAssisment">Mathematics</td>
-                    <td className="titleAssisment">Mr. Smith</td>
+                    <td>Mathematics</td>
+                    <td>Mr. Smith</td>
                     <td>05-02-2023</td>
                     <td>
                       <span className="approved-number">62</span>
@@ -549,8 +637,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">3</td>
-                    <td className="titleAssisment">Sciences</td>
-                    <td className="titleAssisment">Mr. Shane Watson</td>
+                    <td>Sciences</td>
+                    <td>Mr. Shane Watson</td>
                     <td>17-02-2023</td>
                     <td>
                       <span className="pending-number">47</span>
@@ -561,8 +649,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">4</td>
-                    <td className="titleAssisment">Geography</td>
-                    <td className="titleAssisment">Mr. Michael Clarke</td>
+                    <td>Geography</td>
+                    <td>Mr. Michael Clarke</td>
                     <td>20-02-2023</td>
                     <td>
                       <span className="approved-number">77</span>
@@ -573,8 +661,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">5</td>
-                    <td className="titleAssisment">History</td>
-                    <td className="titleAssisment">Ms. Lee Furlong</td>
+                    <td>History</td>
+                    <td>Ms. Lee Furlong</td>
                     <td>27-12-2022</td>
                     <td>
                       <span className="rejected-number">10</span>
@@ -592,52 +680,42 @@ const Dashboard = () => {
           <div className="Assignments col-xl-8">
             <div className="head">
               <p className="AssignmentsHeading">Course</p>
-              <p className="ViewAll">
-                <Link to="/Courses">View All</Link>
-              </p>
+              <p className="ViewAll">View All</p>
             </div>
             <div className="tabel-main-wrpper">
               <table>
                 <thead>
                   <tr>
                     <th className="w10">Sr.No</th>
-                    <th className="w15">Subject</th>
+                    <th className="w25">Subject</th>
                     <th className="w25">Title</th>
                     <th className="w30">Progress</th>
-                    <th className="w10"></th>
+                    <th className="w01"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="serial-number">1</td>
-                    <td className="titleAssisment">English</td>
-                    <td className="titleAssisment">Mr. Timothy Winter</td>
+                    <td>English Literature</td>
+                    <td>Mr. Timothy Winter</td>
                     <td className="process_yellow">
                       <label htmlFor="">55%</label>
                       <ProgressBar now={55} />
                     </td>
-                    <td>
-                      <img
-                        src={Assingment_Table_Next}
-                        className="ms-4"
-                        alt=""
-                      />
+                    <td >
+                      <img src={Assingment_Table_Next} className="ms-4" alt="" />
                     </td>
                   </tr>
                   <tr>
                     <td className="serial-number">2</td>
-                    <td className="titleAssisment">Mathematics</td>
-                    <td className="titleAssisment">Mr. Robert Agranoff</td>
+                    <td>political science</td>
+                    <td>Mr. Robert Agranoff</td>
                     <td className="Full_Green">
                       <label htmlFor="">100%</label>
                       <ProgressBar now={100} />
                     </td>
-                    <td>
-                      <img
-                        src={Assingment_Table_Next}
-                        className="ms-4"
-                        alt=""
-                      />
+                    <td >
+                      <img src={Assingment_Table_Next} className="ms-4" alt="" />
                     </td>
                   </tr>
                   <tr>
@@ -648,44 +726,32 @@ const Dashboard = () => {
                       <label htmlFor="">21%</label>
                       <ProgressBar now={21} />
                     </td>
-                    <td>
-                      <img
-                        src={Assingment_Table_Next}
-                        className="ms-4"
-                        alt=""
-                      />
+                    <td >
+                      <img src={Assingment_Table_Next} className="ms-4" alt="" />
                     </td>
                   </tr>
                   <tr>
                     <td className="serial-number">4</td>
-                    <td className="titleAssisment">Law</td>
-                    <td className="titleAssisment">Mr. Muhammad Taqi Usmani</td>
+                    <td>Law</td>
+                    <td>Mr. Muhammad Taqi Usmani</td>
                     <td className="Full_Green">
                       <label htmlFor="">100%</label>
                       <ProgressBar now={100} />
                     </td>
-                    <td>
-                      <img
-                        src={Assingment_Table_Next}
-                        className="ms-4"
-                        alt=""
-                      />
+                    <td >
+                      <img src={Assingment_Table_Next} className="ms-4" alt="" />
                     </td>
                   </tr>
                   <tr>
                     <td className="serial-number">5</td>
-                    <td className="titleAssisment">History</td>
-                    <td className="titleAssisment">Mr. Fred Fiedler</td>
+                    <td>Strategic Management</td>
+                    <td>Mr. Fred Fiedler</td>
                     <td className="empty_red">
                       <label htmlFor="">Yet to start</label>
                       <ProgressBar now={0} />
                     </td>
-                    <td>
-                      <img
-                        src={Assingment_Table_Next}
-                        className="ms-4"
-                        alt=""
-                      />
+                    <td >
+                      <img src={Assingment_Table_Next} className="ms-4" alt="" />
                     </td>
                   </tr>
                 </tbody>
@@ -697,27 +763,25 @@ const Dashboard = () => {
           <div className="Assignments col-xl-8">
             <div className="head">
               <p className="AssignmentsHeading">Fees</p>
-              <p className="ViewAll">
-                <Link to="/Fees">View All</Link>
-              </p>
+              <p className="ViewAll">View All</p>
             </div>
             <div className="tabel-main-wrpper">
               <table>
                 <thead>
                   <tr>
-                    <th className="w15">Sr.No</th>
-                    <th className="w25">Expense</th>
-                    <th className="w15">Amount</th>
-                    <th className="w15">Date</th>
-                    <th className="w15">Status</th>
-                    <th className="w10"></th>
+                    <th className="w10">Sr.No</th>
+                    <th className="w20">Expense</th>
+                    <th className="w30">Amount</th>
+                    <th className="w20">Date</th>
+                    <th className="w10">Status</th>
+                    <th className="w20"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="serial-number">1</td>
-                    <td className="titleAssisment">Law</td>
-                    <td className="titleAssisment">1000 Rs</td>
+                    <td>Law</td>
+                    <td>Mr. Muhammad Taqi Usmani</td>
                     <td>20-02-2023</td>
                     <td className="">
                       <span className="pending same-width">Due</span>
@@ -726,8 +790,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">2</td>
-                    <td className="titleAssisment">Strategic Management</td>
-                    <td className="titleAssisment">1000 Rs</td>
+                    <td>Strategic Management</td>
+                    <td>Mr. Fred Fiedler</td>
                     <td>02-02-2023</td>
                     <td className="">
                       <span className="approved same-width">paid</span>
@@ -738,8 +802,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">3</td>
-                    <td className="titleAssisment">pharmaceutics</td>
-                    <td className="titleAssisment">1000 Rs</td>
+                    <td>pharmaceutics</td>
+                    <td>Mr. Harvard</td>
                     <td>29-02-2023</td>
                     <td className="">
                       <span className="approved same-width">paid</span>
@@ -750,8 +814,8 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">4</td>
-                    <td className="titleAssisment">political science</td>
-                    <td className="titleAssisment">1000 Rs</td>
+                    <td>political science</td>
+                    <td>Mr. Robert Agranoff</td>
                     <td>13-01-2023</td>
                     <td className="">
                       <span className="approved same-width">paid</span>
@@ -762,11 +826,11 @@ const Dashboard = () => {
                   </tr>
                   <tr>
                     <td className="serial-number">5</td>
-                    <td className="titleAssisment">English Literature</td>
-                    <td className="titleAssisment">1000 Rs</td>
+                    <td>English Literature</td>
+                    <td>Mr. Timothy Winter</td>
                     <td>12-12-2022</td>
                     <td className="">
-                      <span className="rejected">Late Due's</span>
+                      <span className="rejected">Late Due’s</span>
                     </td>
                     <td className="paynow text-center">Pay Now</td>
                   </tr>
@@ -776,44 +840,20 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      {renderModal && (
-        <Dialog
-          header="Dashboard Details"
-          visible={renderModal}
-          modal={true}
-          style={{ width: "45vw" }}
-          onHide={() => setRenderModal(!renderModal)}
-        >
+      {
+        renderModal &&
+        <Dialog header="Dashboard Details" visible={renderModal} modal={true} style={{ width: '45vw' }} onHide={() => setRenderModal(!renderModal)}>
           <p className="m-0">
             <ul>
-              <li>
-                <span>Below are the all tips for dashboard</span>
-              </li>
-              <li>
-                <span>Welcome card shows the status of remaining course.</span>
-              </li>
-              <li>
-                <span>
-                  By clicking top right icon you can switch languages & logout
-                  too.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Below Calendar you can check details of upcoming lectures and
-                  meetings.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Dashboard contains complete material like Assesment &
-                  Assignment details.
-                </span>
-              </li>
+              <li><span>Below are the all tips for dashboard</span></li>
+              <li><span>Welcome card shows the status of remaining course.</span></li>
+              <li><span>By clicking top right icon you can switch languages & logout too.</span></li>
+              <li><span>Below Calendar you can check details of upcoming lectures and meetings.</span></li>
+              <li><span>Dashboard contains complete material like Assesment & Assignment details.</span></li>
             </ul>
           </p>
         </Dialog>
-      )}
+      }
     </main>
   );
 };

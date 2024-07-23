@@ -53,7 +53,7 @@ const ComposeMessage = () => {
                             </div>
                             <div className="col-md-12 col-sm-12 cx-mb-25">
                                 <div className="CreateAuthInput">
-                                    <textarea name="" id="" cols="60" rows="5" placeholder='Type Your Content Here....' ></textarea>
+                                    <textarea name="" id="" cols="60" rows="5" ></textarea>
                                     <Form.Control.Feedback type="invalid">
                                         Please Type Content .
                                     </Form.Control.Feedback>

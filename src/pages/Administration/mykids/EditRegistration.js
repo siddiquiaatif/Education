@@ -78,12 +78,12 @@ const EditRegistration = () => {
                                         className="dateChapter" />
                                     <span className='legendHere'>Date Of Birth<span className='ashhStar'> &#42;</span> </span>
                                     <img src={CalendarImg} className="caledarImg" alt="" />
-                                    {/* <span className='legendHere'>Student Last Name<span className='ashhStar'> &#42;</span> </span> */}
+                                    <span className='legendHere'>Student Last Name<span className='ashhStar'> &#42;</span> </span>
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12 cx-mb-25">
                                 <div className="fieldSetCUST">
-                                    <span className='legendHere'>Grade<span className='ashhStar'> &#42;</span> </span>
+                                    <span className='legendHere'>Gender<span className='ashhStar'> &#42;</span> </span>
                                     <Form.Select class="form-select" required aria-label="Default select example">
                                         <option value="">Grade</option>
                                         <option value="1">One</option>
@@ -97,7 +97,7 @@ const EditRegistration = () => {
                             </div>
                             <div className="col-md-6 col-sm-12 cx-mb-25">
                                 <div className="fieldSetCUST">
-                                    <span className='legendHere'>Syllabus<span className='ashhStar'> &#42;</span> </span>
+                                    <span className='legendHere'>Gender<span className='ashhStar'> &#42;</span> </span>
                                     <Form.Select class="form-select" required aria-label="Default select example">
                                         <option value="">Syllabus</option>
                                         <option value="1">One</option>

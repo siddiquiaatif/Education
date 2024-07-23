@@ -96,7 +96,7 @@ const Assessment = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="assignment-card red-label">
-                     <Link to="/IncompleteAssesment">
+                     <Link to="#">
                       <div className="ac-img-box">
                         <img src={assignment_icon} alt="" />
                       </div>
@@ -119,7 +119,7 @@ const Assessment = () => {
                           Status<span className="assessment-status">Due on 21-02-2023</span>
                           </p>
                         </div>
-                        <Link to="/IncompleteAssesment" className="assignment-link">
+                        <Link to="#" className="assignment-link">
                           <img src={arrow_sm} alt="" />
                         </Link>
                       </div>
@@ -160,7 +160,7 @@ const Assessment = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="assignment-card red-label">
-                     <Link to="/IncompleteAssesment">
+                     <Link to="#">
                       <div className="ac-img-box">
                         <img src={assignment_icon} alt="" />
                       </div>
@@ -183,7 +183,7 @@ const Assessment = () => {
                           Status<span className="assessment-status">Due on 21-02-2023</span>
                           </p>
                         </div>
-                        <Link to="/IncompleteAssesment" className="assignment-link">
+                        <Link to="#" className="assignment-link">
                           <img src={arrow_sm} alt="" />
                         </Link>
                       </div>
@@ -224,7 +224,7 @@ const Assessment = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="assignment-card red-label">
-                     <Link to="/IncompleteAssesment">
+                     <Link to="#">
                       <div className="ac-img-box">
                         <img src={assignment_icon} alt="" />
                       </div>
@@ -247,7 +247,7 @@ const Assessment = () => {
                           Status<span className="assessment-status">Due on 21-02-2023</span>
                           </p>
                         </div>
-                        <Link to="/IncompleteAssesment" className="assignment-link">
+                        <Link to="#" className="assignment-link">
                           <img src={arrow_sm} alt="" />
                         </Link>
                       </div>
@@ -288,7 +288,7 @@ const Assessment = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="assignment-card red-label">
-                     <Link to="/IncompleteAssesment">
+                     <Link to="#">
                       <div className="ac-img-box">
                         <img src={assignment_icon} alt="" />
                       </div>
@@ -311,7 +311,7 @@ const Assessment = () => {
                           Status<span className="assessment-status">Due on 21-02-2023</span>
                           </p>
                         </div>
-                        <Link to="/IncompleteAssesment" className="assignment-link">
+                        <Link to="#" className="assignment-link">
                           <img src={arrow_sm} alt="" />
                         </Link>
                       </div>

@@ -9,7 +9,7 @@ import green_check_icon from "../../assets/images/green_check_icon_attendance.sv
 import circle_without_green_check from "../../assets/images/circle_without_green_check.svg";
 import no_record_img from "../../assets/images/no_record_img.svg";
 import calendar from "../../assets/images/calendar.svg";
-import { Calendar } from "primereact/calendar";
+import DatePicker from "react-datepicker";
 import SubHeader from "../../sharedComponents/SubHeader";
 
 const ClassAttendanceData = [
@@ -104,13 +104,13 @@ const AttendanceDetails = () => {
           <div className="fw-input-fields">
             <div className="row">
               <div className="col-lg-6 innerSelectBox">
-              <Calendar
-                  value={date}
-                  // onChange={(e) => setDate(e.value)}
-                  showIcon
-                  placeholder="Select Date"
-                />
-              {/* <img src={calendar} className="calendarLogo" alt="" /> */}
+              <DatePicker
+                selected={startDate}
+                // placeholderText="Select Date"
+                onChange={(date) => setStartDate(date)}
+                className="form-control innerCust"
+              />
+              <img src={calendar} className="calendarLogo" alt="" />
               </div>
             </div>
           </div>

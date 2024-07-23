@@ -9,8 +9,6 @@ import Live_stop from "../../assets/images/Live_stop.svg";
 import Next_stop from "../../assets/images/Next_stops.svg";
 import Left_Arrow from "../../assets/images/Left_Arrow.svg";
 import Stop_Home from "../../assets/images/Stop_Home.svg";
-import Track_stop from "../../assets/images/Track_stop.svg";
-import Stop_school from "../../assets/images/Stop_school.svg";
 import BusLogo from "../../assets/images/BusLogo.svg";
 import CallingProfile from "../../assets/images/CallingProfile.svg";
 import telephone from "../../assets/images/telephone.svg";
@@ -18,7 +16,6 @@ import MapComponent from "../../sharedComponents/MapComponent";
 
 const BusTracking = () => {
   const [MapList, setMapList] = useState(false);
-  const [MapList1, setMapList1] = useState(false);
   console.log("MapList", MapList);
   return (
     <main id="cx-main" className="Dashboard">
@@ -59,9 +56,7 @@ const BusTracking = () => {
                           type="switch"
                           id="custom-switch"
                           onChange={() => setMapList(!MapList)}
-                          checked={MapList}
                         />
-                       
                         <label
                           for="custom-switch"
                           className={MapList === true ? "active" : "list_view"}
@@ -152,7 +147,7 @@ const BusTracking = () => {
                                 />
                                 <div className="statio_Name">
                                   <div className="logo">
-                                    <img src={Track_stop} alt="" />
+                                    <img src={Stop_Home} alt="" />
                                   </div>
                                   <div className="stop_name">
                                     <p>
@@ -170,7 +165,7 @@ const BusTracking = () => {
                                 />
                                 <div className="statio_Name">
                                   <div className="logo">
-                                    <img src={Track_stop} alt="" />
+                                    <img src={Stop_Home} alt="" />
                                   </div>
                                   <div className="stop_name">
                                     <p>
@@ -188,7 +183,7 @@ const BusTracking = () => {
                                 />
                                 <div className="statio_Name">
                                   <div className="logo">
-                                    <img src={Stop_school} alt="" />
+                                    <img src={Stop_Home} alt="" />
                                   </div>
                                   <div className="stop_name">
                                     <p>
@@ -279,7 +274,9 @@ const BusTracking = () => {
               <div className="PickUP row">
                 <div
                   className={
-                    MapList1 ? "Mapsection col-lg-12" : "RouteSummary col-lg-8"
+                    MapList === true
+                      ? "Mapsection col-lg-12"
+                      : "RouteSummary col-lg-8"
                   }
                 >
                   <div className="RouteSummary_main">
@@ -288,25 +285,24 @@ const BusTracking = () => {
                       <div className="switchCase">
                         <label
                           for="custom-switch"
-                          className={MapList1 && true ? "list_view" : "active"}
+                          className={MapList === true ? "list_view" : "active"}
                         >
                           List View
                         </label>
                         <Form.Check
                           type="switch"
                           id="custom-switch"
-                          onChange={() => setMapList1(!MapList1)}
-                          checked={MapList1}
+                          onChange={() => setMapList(!MapList)}
                         />
                         <label
                           for="custom-switch"
-                          className={MapList1 && false ? "active" : "list_view"}
+                          className={MapList === true ? "active" : "list_view"}
                         >
                           Map View
                         </label>
                       </div>
                     </div>
-                    {MapList1 === false ? (
+                    {MapList === false ? (
                       <div className="RouteSummary_body">
                         <div className="top_body">
                           <img src={ActualTime} alt="" />
@@ -324,26 +320,18 @@ const BusTracking = () => {
                             <div className="Timeing">
                               <div className="time_slot">
                                 <p className="startPoint">Start Point</p>
-                                <p className="drop-start">12:30PM</p>
-                                <p className="start">12:30PM</p>
-                              </div>
-                              <div className="time_slot">
-                                <p className="drop-start">12:30PM</p>
-                                <p className="start">12:30PM</p>
-                              </div>
-                              <div className="time_slot">
-                                <p className="drop-start">12:30PM</p>
-                                <p className="start">12:30PM</p>
+                                <p className="start">09:30AM</p>
+                                <p className="end">09:30AM</p>
                               </div>
                               <div className="time_slot">
                                 <p className="EndPoit">End Point</p>
-                                <p className="drop-start">12:30PM</p>
-                                <p className="start">12:30PM</p>
+                                <p className="start">09:30AM</p>
+                                <p className="end">09:30AM</p>
                               </div>
                             </div>
                             <div className="Route">
                               <div className="Route_path"></div>
-                              <div className="BusLogo">
+                              <div className="BusLogo DropBusLogo">
                                 <img src={BusLogo} alt="" />
                               </div>
                               <div className="step_main">
@@ -351,7 +339,7 @@ const BusTracking = () => {
                                   <img src={Pre_stop} alt="" />
                                 </div>
                                 <div className="Live_Stop">
-                                  <img src={Live_stop} alt="" />
+                                  <img src={Next_stop} alt="" />
                                 </div>
                                 <div className="Next_stop">
                                   <img src={Next_stop} alt="" />
@@ -370,25 +358,7 @@ const BusTracking = () => {
                                 />
                                 <div className="statio_Name">
                                   <div className="logo">
-                                    <img src={Stop_school} alt="" />
-                                  </div>
-                                  <div className="stop_name">
-                                    <p>
-                                      Kamaleshwaram, Thiruvananthapuram, Kerala
-                                      - 695009, India
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="single_stop active">
-                                <img
-                                  src={Left_Arrow}
-                                  className="arrow_left"
-                                  alt=""
-                                />
-                                <div className="statio_Name">
-                                  <div className="logo">
-                                    <img src={Track_stop} alt="" />
+                                    <img src={Stop_Home} alt="" />
                                   </div>
                                   <div className="stop_name">
                                     <p>
@@ -406,7 +376,25 @@ const BusTracking = () => {
                                 />
                                 <div className="statio_Name">
                                   <div className="logo">
-                                    <img src={Track_stop} alt="" />
+                                    <img src={Stop_Home} alt="" />
+                                  </div>
+                                  <div className="stop_name">
+                                    <p>
+                                      Kamaleshwaram, Thiruvananthapuram, Kerala
+                                      - 695009, India
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="single_stop">
+                                <img
+                                  src={Left_Arrow}
+                                  className="arrow_left"
+                                  alt=""
+                                />
+                                <div className="statio_Name">
+                                  <div className="logo">
+                                    <img src={Stop_Home} alt="" />
                                   </div>
                                   <div className="stop_name">
                                     <p>
@@ -439,11 +427,11 @@ const BusTracking = () => {
                         </div>
                       </div>
                     ) : (
-                      <MapComponent />
+                      <MapComponent/>
                     )}
                   </div>
                 </div>
-                {MapList1 === false ? (
+                {MapList === false ? (
                   <div className="pickUo_Details col-lg-4">
                     <div className="TripDetails">
                       <div className="heading">

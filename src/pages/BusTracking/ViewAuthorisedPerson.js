@@ -21,15 +21,15 @@ const ViewAuthorisedPerson = () => {
                         <img src={ViewAuthorised} alt="" />
                         <p className="View_name">Sita Pawar</p>
                     </div>
-                    <div className="Common_dropDown2">
+                    <div className="Common_dropDown">
                         <Dropdown>
                             <Dropdown.Toggle id="dropdown-basic">
                                 <img src={option} alt="" />
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <img src={SideArrow} className='rightArrow' alt="" />
-                                <Dropdown.Item><Link to="/EditAuthorisedPerson">Edit</Link></Dropdown.Item>
-                                <Dropdown.Item onClick={() => setOpenMode(true)}>Delete </Dropdown.Item>
+                                <Dropdown.Item href="#"><Link to="/EditAuthorisedPerson">Edit</Link></Dropdown.Item>
+                                <Dropdown.Item href="#" onClick={() => setOpenMode(true)}>Delete </Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>

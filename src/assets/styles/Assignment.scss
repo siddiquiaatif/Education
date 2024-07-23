@@ -157,47 +157,23 @@
       height: 100%;
       //   width: 10%;
       img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
-    .ad-img-box2 {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-
-      img {
-        height: 48px;
-        width: 38px;
-        object-fit: contain;
+        // width: 100%;
       }
     }
     .ad-text-box {
       margin-left: 25px;
       //   width: 90%;
       .ad-heading {
-        p {
-          font-weight: 600;
-          font-size: 18px;
-          color: #954386;
-          margin-bottom: 10px;
-        }
-        label {
-          font-weight: 600;
-          font-size: 18px;
-          color: #954386;
-          margin-bottom: 10px;
-        }
+        font-weight: 600;
+        font-size: 18px;
+        color: #954386;
+        margin-bottom: 10px;
       }
-
       .ad-detail-text {
         .subject {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             color: #1e0a1b;
             margin-left: 2.5rem;
@@ -206,7 +182,7 @@
         .assignedBy {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             margin-left: 0.5rem;
             color: #1e0a1b;
@@ -215,7 +191,7 @@
         .CreatedOn {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             margin-left: 0.5rem;
             color: #1e0a1b;
@@ -224,7 +200,7 @@
         .status {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             margin-left: 2.5rem;
             color: #1e0a1b;
@@ -233,7 +209,7 @@
         .submissinDate {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             margin-left: 0.5rem;
             color: #1e0a1b;
@@ -242,7 +218,7 @@
         .submittedOn {
           font-size: 12px;
           color: rgba(30, 10, 27, 0.3);
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           span {
             margin-left: 1.5rem;
             color: #1e0a1b;
@@ -301,12 +277,12 @@
       .p-accordion-header:not(.p-disabled).p-highlight
       .p-accordion-header-link {
       background: #fff;
-      box-shadow: 0px 0px 1px rgba(12, 26, 75, 0),
-        0px -12px 10px -10px rgba(50, 50, 71, 0) !important;
+      box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.0),
+        0px -12px 10px -10px rgba(50, 50, 71, 0.00) !important;
       position: relative;
       border-top: 1px solid rgba(50, 50, 71, 0.05);
-      // border-right: 1px solid rgba(50, 50, 71, 0.05);
-      // border-left: 1px solid rgba(50, 50, 71, 0.05);
+    // border-right: 1px solid rgba(50, 50, 71, 0.05);
+    // border-left: 1px solid rgba(50, 50, 71, 0.05);
       &::before {
         position: absolute;
         top: 20px;
@@ -352,14 +328,7 @@
             padding: 20px;
 
             .qform {
-              width: 33%;
-              display: flex;
-              flex-wrap: wrap;
-              flex-direction: column;
-              position: relative;
-            }
-            .qform1 {
-              width: 62%;
+              width: 34%;
               display: flex;
               flex-wrap: wrap;
               flex-direction: column;
@@ -389,8 +358,7 @@
               overflow: hidden;
               margin-bottom: 0.375em;
               position: relative;
-              // width: 300px;
-              // min-width: 200px;
+
               &:hover + .tip {
                 display: block !important;
               }
@@ -419,7 +387,7 @@
                   &::after {
                     content: url(../images/assignment_avatar.svg);
                     position: absolute;
-                    right: 28px;
+                    right: -1px;
                     top: 1px;
                   }
                 }
@@ -434,7 +402,7 @@
                   &::after {
                     content: url(../images/assignment_avatar.svg);
                     position: absolute;
-                    right: 28px;
+                    right: -1px;
                     top: 1px;
                   }
                 }
@@ -466,60 +434,6 @@
               .false {
               }
             }
-          }
-        }
-        .p-accordion-tab {
-          .header-1 {
-            position: relative;
-            z-index: 1;
-            &::after {
-              content: url("../images/assignment_red_label.svg");
-              position: absolute;
-              top: -6px;
-              right: -6px;
-              z-index: 999;
-            }
-          }
-          .header-2 {
-            position: relative;
-            z-index: 1;
-            &::after {
-              content: url("../images/assignment_green_label.svg");
-              position: absolute;
-              top: -6px;
-              right: -6px;
-              z-index: 999;
-            }
-          }
-          .header-3 {
-            position: relative;
-            z-index: 1;
-            &::after {
-              content: url("../images/assignment_red_label.svg");
-              position: absolute;
-              top: -6px;
-              right: -6px;
-              z-index: 999;
-            }
-          }
-        }
-        #pr_id_1_content_0,
-        #pr_id_1_content_1,
-        #pr_id_1_content_2,
-        #pr_id_1_content_3,
-        #pr_id_1_content_4,
-        #pr_id_1_content_5,
-        #pr_id_1_content_6,
-        #pr_id_1_content_7,
-        #pr_id_1_content_8,
-        #pr_id_5_content_0,
-        #pr_id_5_content_1,
-        #pr_id_5_content_2,
-        #pr_id_30_content_1,
-        #pr_id_30_content_0,
-        #pr_id_30_content_2 {
-          &::after {
-            display: none !important;
           }
         }
       }

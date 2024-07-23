@@ -40,9 +40,9 @@ const Fees = () => {
                       <div
                         className="tableBorders"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table ">
                           <thead id="shadowHead">
@@ -167,9 +167,9 @@ const Fees = () => {
                       <div
                         className="tableBorders cx-mb-20"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">
@@ -346,9 +346,9 @@ const Fees = () => {
                       <div
                         className="tableBorders"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">
@@ -499,9 +499,9 @@ const Fees = () => {
                   <div
                     className="tableBorders"
                     id="feesTable"
-                    // data-aos="fade-up"
-                    // data-aos-duration="900"
-                    // data-aos-delay="500"
+                    data-aos="fade-up"
+                    data-aos-duration="900"
+                    data-aos-delay="500"
                   >
                     <table className="table">
                       <thead id="shadowHead">
@@ -603,9 +603,9 @@ const Fees = () => {
                       <div
                         className="tableBorders"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">
@@ -699,9 +699,9 @@ const Fees = () => {
                       <div
                         className="tableBorders cx-mb-20"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">
@@ -793,9 +793,9 @@ const Fees = () => {
                       <div
                         className="tableBorders"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">
@@ -893,9 +893,9 @@ const Fees = () => {
                       <div
                         className="tableBorders"
                         id="feesTable"
-                        // data-aos="fade-up"
-                        // data-aos-duration="900"
-                        // data-aos-delay="500"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="500"
                       >
                         <table className="table">
                           <thead id="shadowHead">

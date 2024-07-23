@@ -3,25 +3,11 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import cart_icon from "../../src/assets/images/cart_icon.svg";
-import purple_calendar from "../../src/assets/images/purple_calendar.svg";
-import DatePicker from "react-datepicker";
 
 const SubHeader = () => {
   const currentPath = useLocation().pathname;
   const [openMode, setOpenMode] = useState(false);
   const navigate = useNavigate();
-  const [date, setDate] = useState(null);
-  const [startDate, setStartDate] = useState(new Date());
-  const [value, onChange] = useState(new Date());
-  const [isShown, setIsShown] = useState(false);
-
-  const handleClick = (event) => {
-    // 👇️ toggle shown state
-    setIsShown((current) => !current);
-
-    // 👇️ or simply set it to true
-    // setIsShown(true);
-  };
 
   return (
     <div className="breadcrumb-wrapper cx-mb-20">
@@ -72,9 +58,9 @@ const SubHeader = () => {
           </>
         )) ||
         (currentPath === "/Assignment" ||
-        currentPath === "/DailyAssignmentwithReview" ||
-        currentPath === "/DailyAssignmentwithoutReview" ||
-        currentPath === "/IncompleteAssignment" ? (
+          currentPath === "/DailyAssignmentwithReview" ||
+          currentPath === "/DailyAssignmentwithoutReview" ||
+          currentPath === "/IncompleteAssignment" ? (
           <>
             <div className="breadcrumb">
               <p>Assignment</p>
@@ -87,7 +73,7 @@ const SubHeader = () => {
           ""
         )) ||
         (currentPath === "/Assessment" ||
-        currentPath === "/DailyAssessmentwithoutReview" ? (
+          currentPath === "/DailyAssessmentwithoutReview" ? (
           <>
             <div className="breadcrumb">
               <p>Assessment</p>
@@ -95,18 +81,6 @@ const SubHeader = () => {
             {/* <div className="btn-wrapper">
               <p>Daily Assignment </p>
             </div> */}
-          </>
-        ) : (
-          ""
-        )) ||
-        (currentPath === "/IncompleteAssesment" ? (
-          <>
-            <div className="breadcrumb">
-              <Link className="belowLink" to="/Assessment">
-              Assessment
-              </Link>
-              <p>/ Incomplete Assesment</p>
-            </div>
           </>
         ) : (
           ""
@@ -134,8 +108,12 @@ const SubHeader = () => {
             <div className="breadcrumb">
               <Link className="belowLink" to="/Curriculum">
                 Curriculum
+                <span className="belowLink">/ English </span>
               </Link>
-              <p>/ English</p>
+              <p>
+                / Topic
+                02
+              </p>
             </div>
           </>
         ) : (
@@ -214,15 +192,6 @@ const SubHeader = () => {
         ) : (
           ""
         )) ||
-        (currentPath === "/BusRoute" ? (
-          <>
-            <div className="breadcrumb">
-              <p>Route</p>
-            </div>
-          </>
-        ) : (
-          ""
-        )) ||
         (currentPath === "/RenewTransportation" ? (
           <>
             <div className="breadcrumb">
@@ -268,7 +237,7 @@ const SubHeader = () => {
               </Link>
             </div>
             <div className="btn-wrapper">
-              <Link to="/CreateAuthorisedPerson" className="green-btn-1">
+              <Link to="#" className="green-btn-1">
                 Create Authorised Person
               </Link>
             </div>
@@ -291,26 +260,6 @@ const SubHeader = () => {
           <>
             <div className="breadcrumb">
               <p>My Diary</p>
-            </div>
-          </>
-        ) : (
-          ""
-        )) ||
-        (currentPath === "/MyDiary1" ? (
-          <>
-            <div className="breadcrumb">
-              <p>My Diary New</p>
-            </div>
-            <div className="btn-wrapper">
-              <img src={purple_calendar} alt="" onClick={handleClick} />
-              {/* {isShown && ( */}
-              <DatePicker
-                selected={startDate}
-                // placeholderText="Select Date"
-                onChange={(date) => setStartDate(date)}
-                className="date-picker-input"
-              />
-              {/* )} */}
             </div>
           </>
         ) : (
@@ -387,10 +336,7 @@ const SubHeader = () => {
         (currentPath === "/NoticeDetail" ? (
           <>
             <div className="breadcrumb">
-              <Link to="/NoticeBoard" className="belowLink">
-                Notice Board
-              </Link>
-              <p> / Notice Detail</p>
+              <p>Notice Detail</p>
             </div>
           </>
         ) : (
@@ -399,9 +345,7 @@ const SubHeader = () => {
         (currentPath === "/ViewKidsDetails" ? (
           <>
             <div className="breadcrumb">
-            <Link to="/MyKids" className="">
-               My Kids
-              </Link>
+              <p>My Kids</p>
             </div>
           </>
         ) : (
@@ -427,7 +371,10 @@ const SubHeader = () => {
               <Link to="/MyKids" className="belowLink">
                 <span>Registration </span>
               </Link>
-              <p>/ Student Details</p>
+              <p>
+                / Student
+                Details
+              </p>
             </div>
             <div className="btn-wrapper">
               <Link to="/NewRegistration" className="green-btn-1">
@@ -490,12 +437,7 @@ const SubHeader = () => {
 
               <Modal.Footer>
                 <div className="modalBtns">
-                  <button
-                    className="cancelBtn"
-                    onClick={() => setOpenMode(false)}
-                  >
-                    Cancel
-                  </button>
+                  <button className="cancelBtn" onClick={() => setOpenMode(false)}>Cancel</button>
                   <button className="YesBtn">Yes</button>
                 </div>
               </Modal.Footer>
@@ -509,25 +451,15 @@ const SubHeader = () => {
             </div>
           </>
         )) ||
-        (currentPath === "/ElearningAdditionalTopic" && (
-          <>
-            <div className="breadcrumb">
-              <Link to="/Elearning" className="belowLink">
-                <span className="belowLink">E-Learning / Additional E-Learning Material</span>
-              </Link>
-              <p>/ English</p>
-            </div>
-          </>
-        )) ||
         (currentPath === "/ElearningSubjectTopic" ? (
           <>
             <div className="breadcrumb">
               <Link to="/Elearning" className="belowLink">
-                <span className="belowLink">
-                  E-Learning 
-                </span>
+                <span className="belowLink">E-Learning </span>
               </Link>
-              <p>/ Physics</p>
+              <p>
+                / English
+              </p>
             </div>
           </>
         ) : (
@@ -552,7 +484,10 @@ const SubHeader = () => {
               <Link to="/StudyMaterial">
                 <span className="belowLink">Study Material </span>
               </Link>
-              <p>/ Topic Details</p>
+              <p>
+                / Topic
+                Details
+              </p>
             </div>
             <div className="cart-btn" onClick={() => navigate("/mycart")}>
               <img src={cart_icon} alt="" />
@@ -566,7 +501,7 @@ const SubHeader = () => {
           <>
             <div className="breadcrumb">
               <Link to="/StudyMaterial" className="belowLink">
-                <span>Study Material </span>
+                <span >Study Material </span>
               </Link>
               <p> / My Cart</p>
             </div>
@@ -595,9 +530,11 @@ const SubHeader = () => {
           <>
             <div className="breadcrumb">
               <Link to="/Courses" className="belowLink">
-                <span>Courses</span>
+                <span >Courses</span>
               </Link>
-              <p>/ Rutherford's Atomic Model</p>
+              <p>
+                / Rutherford’s Atomic Model
+              </p>
             </div>
             <div className="cart-btn" onClick={() => navigate("/mycart")}>
               <img src={cart_icon} alt="" />
@@ -666,14 +603,8 @@ const SubHeader = () => {
         )) ||
         (currentPath === "/Certificate" ? (
           <>
-            {/* <div className="breadcrumb">
-              <p>Documents</p>
-            </div> */}
             <div className="breadcrumb">
-              <Link to="/document" className="belowLink">
-                <span>Documents </span>
-              </Link>
-              <p>/ Certificate</p>
+              <p>Documents</p>
             </div>
           </>
         ) : (
@@ -691,34 +622,37 @@ const SubHeader = () => {
         (currentPath === "/RechargeWallet" ? (
           <>
             <div className="breadcrumb">
-              <Link to="/CashlessWallet" className="belowLink">
-                <span>Cashless Wallet </span>
-              </Link>
-              <p>/ Recharge Wallet</p>
+              <Link to="/CashlessWallet" className="belowLink"><span>Cashless Wallet </span></Link>
+              <p>
+                / Recharge
+                Wallet
+              </p>
             </div>
           </>
         ) : (
           ""
-        )) ||
+        ))
+        ||
         (currentPath === "/InvoiceFee" ? (
           <>
             <div className="breadcrumb">
-              <Link to="/Fees" className="belowLink">
-                <span>Fee Invoice </span>
-              </Link>
-              <p>/ Invoice</p>
+              <Link to="/Fees" className="belowLink"><span>Fee Invoice </span></Link>
+              <p>
+                / Invoice
+              </p>
             </div>
           </>
         ) : (
           ""
-        )) ||
+        ))
+        ||
         (currentPath === "/InvoiceReceipt" ? (
           <>
             <div className="breadcrumb">
-              <Link to="/Fees" className="belowLink">
-                <span>Fee Receipt </span>
-              </Link>
-              <p>/ Receipt</p>
+              <Link to="/Fees" className="belowLink"><span>Fee Receipt </span></Link>
+              <p>
+                / Receipt
+              </p>
             </div>
           </>
         ) : (
@@ -729,3 +663,7 @@ const SubHeader = () => {
   );
 };
 export default SubHeader;
+
+{
+  /*  */
+}

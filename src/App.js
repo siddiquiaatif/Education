@@ -15,13 +15,11 @@ import DailyAssignmentwithReview from "./pages/Assignment/DailyAssignmentwithRev
 import DailyAssignmentwithoutReview from "./pages/Assignment/DailyAssignmentwithoutReview";
 import IncompleteAssignment from "./pages/Assignment/IncompleteAssignment";
 import Assessment from "./pages/Assesment/Assessment";
-import IncompleteAssesment from "./pages/Assesment/IncompleteAssesment";
 import DailyAssessmentwithoutReview from "./pages/Assesment/DailyAssessmentwithoutReview";
 import Curriculum from "./pages/Curriculum/Curriculum";
 import Topic from "./pages/Curriculum/Topic";
 import Elearning from "./pages/Elearning/Elearning";
 import ElearningSubjectTopic from "./pages/Elearning/ElearningSubjectTopic";
-import ElearningAdditionalTopic from "./pages/Elearning/ElearningAdditionalTopic";
 import PersonalDetails from "./pages/Settings/PersonalDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -54,7 +52,6 @@ import Fees from "./pages/Administration/fees/Fees";
 import InvoiceFee from "./pages/Administration/fees/InvoiceFee";
 import InvoiceReceipt from "./pages/Administration/fees/InvoiceReceipt";
 import BusTracking from "./pages/BusTracking/BusTracking";
-import BusRoute from "./pages/BusTracking/BusRoute";
 import MyCart from "./pages/MyCart/MyCart";
 import Courses from "./pages/Courses/Courses";
 import AboutCourseDetails from "./pages/Courses/AboutCourseDetails";
@@ -78,7 +75,6 @@ import VideoConference from "./pages/Communication/VideoConference";
 import NoticeBoard from "./pages/Communication/NoticeBoard";
 import NoticeDetail from "./pages/Communication/NoticeDetail";
 import MyDiary from "./pages/Communication/MyDiary";
-import MyDiary1 from "./pages/Communication/MyDiary1";
 function App() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -131,7 +127,6 @@ function App() {
           <Route path="EditLeave" element={<EditLeave />} />
           {/* Bus Tracking */}
           <Route path="BusTracking" element={<BusTracking />} />
-          <Route path="BusRoute" element={<BusRoute />} />
           <Route path="AuthorisedPerson" element={<AuthorisedPerson />} />
           <Route path="ViewAuthorisedPerson" element={<ViewAuthorisedPerson />} />
           <Route path="CreateAuthorisedPerson" element={<CreateAuthorisedPerson />} />
@@ -144,7 +139,6 @@ function App() {
           <Route path="NoticeBoard" element={<NoticeBoard />} />
           <Route path="NoticeDetail" element={<NoticeDetail />} />
           <Route path="MyDiary" element={<MyDiary />} />
-          <Route path="MyDiary1" element={<MyDiary1 />} />
           {/* Settings page routes */}
           <Route path="PersonalDetails" element={<PersonalDetails />} />
           <Route path="EditProfile" element={<EditProfile />} />
@@ -160,7 +154,6 @@ function App() {
           <Route path="Topic" element={<Topic />} />
           <Route path="Elearning" element={<Elearning />} />
           <Route path="ElearningSubjectTopic" element={<ElearningSubjectTopic />} />
-          <Route path="ElearningAdditionalTopic" element={<ElearningAdditionalTopic />} />
           <Route path="IdCards" element={<IdCards />} />
           <Route path="ViewRegistration" element={<ViewRegistration />} />
           <Route path="Fees" element={<Fees />} />
@@ -182,7 +175,6 @@ function App() {
           <Route path="BuyCourseDetails" element={<BuyCourseDetails />} />
           {/* Assesment */}
           <Route path="Assessment" element={<Assessment />} />
-          <Route path="IncompleteAssesment" element={<IncompleteAssesment />} />
           <Route path="DailyAssessmentwithoutReview" element={<DailyAssessmentwithoutReview />} />
           <Route path="Certificate" element={<Certificate />} />
           {/* Cahsless Wallet */}

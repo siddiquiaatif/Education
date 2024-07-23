@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import SubHeader from '../../sharedComponents/SubHeader'
 import { SpeedDial } from "primereact/speeddial";
 import double_tick from "../../assets/images/Chating_images/double_tick.svg";
@@ -19,11 +19,9 @@ import Delete from "../../assets/images/Chating_images/Delete.svg";
 import ViewAuthorised from "../../assets/images/ViewAuthorised.svg";
 import { Link } from 'react-router-dom';
 import { Dropdown, Tab } from 'react-bootstrap';
-import Modal from 'react-bootstrap/Modal';
 
 const ChatBox = () => {
     const toast = useRef(null);
-    const [openMode, setOpenMode] = useState(false);
 
     const items = [
         {
@@ -95,7 +93,7 @@ const ChatBox = () => {
                                 </div>
                             </div>
                             <div className="right">
-                                <img src={Delete} alt="" onClick={() => setOpenMode(true)}/>
+                                <img src={Delete} alt="" />
                             </div>
                         </div>
                         <div className="chatting-section">
@@ -272,7 +270,7 @@ const ChatBox = () => {
                                 </div>
                             </div>
                             <div className="right">
-                                <img src={Delete} alt="" onClick={() => setOpenMode(true)}/>
+                                <img src={Delete} alt="" />
                             </div>
                         </div>
                         <div className="chatting-section">
@@ -448,7 +446,7 @@ const ChatBox = () => {
                                     <label htmlFor="">Harry</label>
                                 </div>
                             </div>
-                            <div className="right"><img src={Delete} alt="" onClick={() => setOpenMode(true)}/></div>
+                            <div className="right"><img src={Delete} alt="" /></div>
                         </div>
                         <div className="chatting-section">
                             <div className="message-main">
@@ -623,7 +621,7 @@ const ChatBox = () => {
                                     <label htmlFor="">Amelia</label>
                                 </div>
                             </div>
-                            <div className="right"><img src={Delete} alt="" onClick={() => setOpenMode(true)}/></div>
+                            <div className="right"><img src={Delete} alt="" /></div>
                         </div>
                         <div className="chatting-section">
                             <div className="message-main">
@@ -799,7 +797,7 @@ const ChatBox = () => {
                                     <label htmlFor="">Ezra</label>
                                 </div>
                             </div>
-                            <div className="right"><img src={Delete} alt="" onClick={() => setOpenMode(true)}/></div>
+                            <div className="right"><img src={Delete} alt="" /></div>
                         </div>
                         <div className="chatting-section">
                             <div className="message-main">
@@ -1665,30 +1663,6 @@ const ChatBox = () => {
                 </Tab.Content>
             </div>
             {/* </div> */}
-            {/* Modal */}
-            <Modal
-                // size="md"
-                centered
-                show={openMode}
-                onHide={() => setOpenMode(false)} animation={true}
-            >
-                <Modal.Header closeButton>
-                    <Modal.Title>
-                        Delete
-                    </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <div className="borderModal"></div>
-                    <p>Are you sure you want to delete this chat?</p>
-                    <div className="borderModalBelow"></div>
-                </Modal.Body>
-                <Modal.Footer>
-                    <div className="modalBtns">
-                        <button className="cancelBtn" onClick={() => setOpenMode(false)}>Cancel</button>
-                        <button className="YesBtn">Delete</button>
-                    </div>
-                </Modal.Footer>
-            </Modal>
         </div>
     )
 }

@@ -14,7 +14,6 @@ import ic_logout from "../assets/images/ic_logout.svg";
 import ic_arrow_sidebar from "../assets/images/ic_arrow_sidebar.svg";
 import { Accordion, Button, Dropdown } from "react-bootstrap";
 import logo from "../assets/images/logo.svg";
-import { Modal } from "react-bootstrap";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -22,7 +21,6 @@ const Sidebar = () => {
   const [activeSidebar, setActiveSidebar] = useState("");
   const [attendance, setAttendance] = useState(false);
   const [dashboard, setDashboard] = useState(false);
-  const [openMode, setOpenMode] = useState(false);
 
   const { sidebar, setSidebar } = useContext(AppContext);
 
@@ -59,7 +57,7 @@ const Sidebar = () => {
           </button>
         </div>
         <div className="menus-wrapper">
-          <Accordion className="sidebar-accordion">
+          <Accordion>
             {/* ================== > DASHBOARD START <================== */}
 
             <Link
@@ -175,24 +173,22 @@ const Sidebar = () => {
               eventKey="1"
               className={
                 currentRoute === "/Curriculum" ||
-                currentRoute === "/Topic" ||
-                currentRoute === "/Assignment" ||
-                currentRoute === "/DailyAssignmentwithoutReview" ||
-                currentRoute === "/DailyAssignmentwithReview" ||
-                currentRoute === "/IncompleteAssignment" ||
-                currentRoute === "/Assessment" ||
-                currentRoute === "/DailyAssessmentwithoutReview" ||
-                currentRoute === "/IncompleteAssesment" ||
-                currentRoute === "/Assessment" ||
-                currentRoute === "/DailyAssessmentwithoutReview" ||
-                currentRoute === "/Elearning" ||
-                currentRoute === "/ElearningSubjectTopic" ||
-                currentRoute === "/ElearningAdditionalTopic" ||
-                currentRoute === "/StudyMaterial" ||
-                currentRoute === "/StudyMaterialTopicDetails" ||
-                currentRoute === "/Courses" ||
-                currentRoute === "/AboutCourseDetails" ||
-                currentRoute === "/BuyCourseDetails"
+                  currentRoute === "/Topic" ||
+                  currentRoute === "/Assignment" ||
+                  currentRoute === "/DailyAssignmentwithoutReview" ||
+                  currentRoute === "/DailyAssignmentwithReview" ||
+                  currentRoute === "/IncompleteAssignment" ||
+                  currentRoute === "/Assessment" ||
+                  currentRoute === "/DailyAssessmentwithoutReview" ||
+                  currentRoute === "/Assessment" ||
+                  currentRoute === "/DailyAssessmentwithoutReview" ||
+                  currentRoute === "/Elearning" ||
+                  currentRoute === "/ElearningSubjectTopic" ||
+                  currentRoute === "/StudyMaterial" ||
+                  currentRoute === "/StudyMaterialTopicDetails" ||
+                  currentRoute === "/Courses" ||
+                  currentRoute === "/AboutCourseDetails" ||
+                  currentRoute === "/BuyCourseDetails"
                   ? "activeMenu"
                   : ""
               }
@@ -251,8 +247,7 @@ const Sidebar = () => {
                     <li
                       className={
                         currentRoute === "/Assessment" ||
-                        currentRoute === "/IncompleteAssesment" ||
-                        currentRoute === "/DailyAssessmentwithoutReview"
+                          currentRoute === "/DailyAssessmentwithoutReview"
                           ? "activeMenuList"
                           : ""
                       }
@@ -270,8 +265,7 @@ const Sidebar = () => {
                     <li
                       className={
                         currentRoute === "/Elearning" ||
-                        currentRoute === "/ElearningAdditionalTopic" ||
-                        currentRoute === "/ElearningSubjectTopic"
+                          currentRoute === "/ElearningSubjectTopic"
                           ? "activeMenuList"
                           : ""
                       }
@@ -334,19 +328,19 @@ const Sidebar = () => {
               eventKey="2"
               className={
                 currentRoute === "/MyKids" ||
-                currentRoute === "/IdCards" ||
-                currentRoute === "/EditKidsDetails" ||
-                currentRoute === "/EditRegistration" ||
-                currentRoute === "/NewRegistration" ||
-                currentRoute === "/ViewKidsDetails" ||
-                currentRoute === "/ViewRegistration" ||
-                currentRoute === "/Fees" ||
-                currentRoute === "/document" ||
-                currentRoute === "/Certificate" ||
-                currentRoute === "/InvoiceFee" ||
-                currentRoute === "/TransferCertificate" ||
-                currentRoute === "/RequestNewTc" ||
-                currentRoute === "/InvoiceReceipt"
+                  currentRoute === "/IdCards" ||
+                  currentRoute === "/EditKidsDetails" ||
+                  currentRoute === "/EditRegistration" ||
+                  currentRoute === "/NewRegistration" ||
+                  currentRoute === "/ViewKidsDetails" ||
+                  currentRoute === "/ViewRegistration" ||
+                  currentRoute === "/Fees" ||
+                  currentRoute === "/document" ||
+                  currentRoute === "/Certificate" ||
+                  currentRoute === "/InvoiceFee" ||
+                  currentRoute === "/TransferCertificate" ||
+                  currentRoute === "/RequestNewTc" ||
+                  currentRoute === "/InvoiceReceipt"
                   ? "activeMenu"
                   : ""
               }
@@ -388,8 +382,8 @@ const Sidebar = () => {
                     <li
                       className={
                         currentRoute === "/Fees" ||
-                        currentRoute === "/InvoiceFee" ||
-                        currentRoute === "/InvoiceReceipt"
+                          currentRoute === "/InvoiceFee" ||
+                          currentRoute === "/InvoiceReceipt"
                           ? "activeMenuList"
                           : ""
                       }
@@ -407,8 +401,7 @@ const Sidebar = () => {
 
                     <li
                       className={
-                        (currentRoute === "/TransferCertificate" ||
-                          currentRoute == "/RequestNewTc") &&
+                        (currentRoute === "/TransferCertificate" || currentRoute == "/RequestNewTc") &&
                         "activeMenuList"
                       }
                     >
@@ -472,12 +465,11 @@ const Sidebar = () => {
               eventKey="3"
               className={
                 currentRoute === "/BusTracking" ||
-                currentRoute === "/AuthorisedPerson" ||
-                currentRoute === "/ViewAuthorisedPerson" ||
-                currentRoute === "/CreateAuthorisedPerson" ||
-                currentRoute === "/EditAuthorisedPerson" ||
-                currentRoute === "/BusRoute" ||
-                currentRoute === "/RenewTransportation"
+                  currentRoute === "/AuthorisedPerson" ||
+                  currentRoute === "/ViewAuthorisedPerson" ||
+                  currentRoute === "/CreateAuthorisedPerson" ||
+                  currentRoute === "/EditAuthorisedPerson" ||
+                  currentRoute === "/RenewTransportation"
                   ? "activeMenu"
                   : ""
               }
@@ -508,14 +500,10 @@ const Sidebar = () => {
                         Track Bus
                       </Link>
                     </li>
-                    <li
-                      className={
-                        currentRoute === "/BusRoute" && "activeMenuList"
-                      }
-                    >
+                    <li className={currentRoute === "#" && "activeMenuList"}>
                       <span className="menu-circle"></span>
                       <Link
-                        to="/BusRoute"
+                        to="#"
                         onClick={() =>
                           isMobile ? setSidebar(true) : setSidebar(false)
                         }
@@ -528,7 +516,6 @@ const Sidebar = () => {
                       className={
                         (currentRoute === "/AuthorisedPerson" ||
                           currentRoute === "/CreateAuthorisedPerson" ||
-                          currentRoute === "/EditAuthorisedPerson" ||
                           currentRoute === "/ViewAuthorisedPerson") &&
                         "activeMenuList"
                       }
@@ -570,10 +557,10 @@ const Sidebar = () => {
               eventKey="4"
               className={
                 currentRoute === "/Chat" ||
-                currentRoute === "/ComposeMessage" ||
-                currentRoute === "/NoticeBoard" ||
-                currentRoute === "/NoticeDetail" ||
-                currentRoute === "/VideoConference"
+                  currentRoute === "/ComposeMessage" ||
+                  currentRoute === "/NoticeBoard" ||
+                  currentRoute === "/NoticeDetail" ||
+                  currentRoute === "/VideoConference"
                   ? "activeMenu"
                   : ""
               }
@@ -652,7 +639,7 @@ const Sidebar = () => {
                 className={
                   currentRoute === "/MyDiary"
                     ? // dashboard
-                      "menu-outer-warpper activeMenu"
+                    "menu-outer-warpper activeMenu"
                     : "menu-outer-warpper"
                 }
               >
@@ -663,14 +650,14 @@ const Sidebar = () => {
               </div>
             </Link>
             {/* My Dairy 1 */}
-            <Link to="/MyDiary1" className="d-block menu-link">
+            <Link to="/" className="d-block menu-link">
               <div
                 // onClick={()=>{setDashboard(true);
                 //   setAttendance(false)}}
                 className={
-                  currentRoute === "/MyDiary1"
+                  currentRoute === "/"
                     ? // dashboard
-                      "menu-outer-warpper activeMenu"
+                    "menu-outer-warpper activeMenu"
                     : "menu-outer-warpper"
                 }
               >
@@ -738,7 +725,7 @@ const Sidebar = () => {
                         Change Password
                       </Link>
                     </li>
-                    {/* <li
+                    <li
                       className={
                         currentRoute === "#" && "activeMenuList"
                       }
@@ -752,7 +739,7 @@ const Sidebar = () => {
                       >
                         Language
                       </Link>
-                    </li> */}
+                    </li>
                     <li
                       className={
                         currentRoute === "/NotificationSetting" &&
@@ -776,12 +763,8 @@ const Sidebar = () => {
             {/* ================== > Settings END <================== */}
           </Accordion>
 
-          {/* <div className="logout">
-            <Link
-              to="#"
-              className="d-block menu-link"
-              onClick={() => setOpenMode(true)}
-            >
+          <div className="logout">
+            <Link to="/" className="d-block menu-link">
               <div className={"menu-outer-warpper"}>
                 <div className="icon">
                   <img src={ic_logout} alt="" />
@@ -789,35 +772,9 @@ const Sidebar = () => {
                 <div className="menu-name">Logout</div>
               </div>
             </Link>
-          </div> */}
+          </div>
         </div>
       </div>
-      <Modal
-        size="md"
-        centered
-        show={openMode}
-        onHide={() => setOpenMode(false)}
-        animation={true}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Log Out</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="borderModal"></div>
-          <p>Are you sure you want to Log Out ?</p>
-          <div className="borderModalBelow"></div>
-        </Modal.Body>
-        <Modal.Footer>
-          <div className="modalBtns">
-            <button className="cancelBtn" onClick={() => setOpenMode(false)}>
-              Cancel
-            </button>
-            <button className="cancelBtn cx-ml-15">
-              <Link to="/">Log Out</Link>
-            </button>
-          </div>
-        </Modal.Footer>
-      </Modal>
     </main>
   );
 };

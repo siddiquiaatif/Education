@@ -6,20 +6,13 @@ import { Link } from 'react-router-dom';
 import CalendarImg from "../../assets/images/calendar.svg";
 import { Calendar } from 'primereact/calendar';
 import SubHeader from '../../sharedComponents/SubHeader';
-import UserImg from "../../assets/images/userImg.svg";
-import { Navigate, useNavigate } from "react-router-dom";
-
-
-
+import UserImg from "../../assets/images/userImg.svg"
 const EditProfile = () => {
     const [validated, setValidated] = useState(false);
     const [startDate, setStartDate] = useState(new Date());
     const [date, setDate] = useState(null);
 
-    const navigate = useNavigate();
-
     const handleSubmit = (event) => {
-        event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();
@@ -148,17 +141,13 @@ const EditProfile = () => {
                                     </Form.Control.Feedback>
                                 </div>
                                 <div className="fieldSetCUST cx-mb-25">
-                                    <Calendar value={date} 
-                                    // onChange={(e) => setDate(e.value)}
-                                     placeholder="Select Your Birth Date ..."
+                                    <Calendar value={date} onChange={(e) => setDate(e.value)} placeholder="Select Your Birth Date ..."
                                         className="dateChapter" />
                                     <span className='legendHere'>Date Of Birth<span className='ashhStar'> &#42;</span> </span>
                                     <img src={CalendarImg} className="caledarImg" alt="" />
                                 </div>
                                 <div className="fieldSetCUST cx-mb-25">
-                                    <Calendar value={date} 
-                                    // onChange={(e) => setDate(e.value)}
-                                     placeholder="Select Your Joining Date"
+                                    <Calendar value={date} onChange={(e) => setDate(e.value)} placeholder="Select Your Joining Date"
                                         className="dateChapter" />
                                     <span className='legendHere'>Joining Date<span className='ashhStar'> &#42;</span> </span>
                                     <img src={CalendarImg} className="caledarImg" alt="" />
@@ -213,8 +202,8 @@ const EditProfile = () => {
                         </div>
                     </div>
                     <div className="belowBtns">
-                        <button className='cx-btn-2' onClick={navigate("/PersonalDetails")}>Cancel</button>
-                        <button className='cx-btn-1 cx-ml-20'>Update</button>
+                        <button className='cx-btn-2'>Cancel</button>
+                        <button className='cx-btn-1 cx-ml-10'>Update</button>
                     </div>
                 </Form>
             </div>

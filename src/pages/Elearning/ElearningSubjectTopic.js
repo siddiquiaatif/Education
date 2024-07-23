@@ -48,12 +48,12 @@ const ElearningSubjectTopic = () => {
                 <Accordion.Header className="tc-lesson-header">
                   <div className="tch-left">
                     <div className="row">
-                      <div className="col-xl-5 col-lg-5 col-md-5 col-sm-4 col-4">
+                      <div className="col-lg-5">
                         <img src={lesson_icon} alt="" />
                       </div>
-                      <div className="col-xl-7 col-lg-7 col-md-7 col-sm-8 col-8 d-flex align-items-center">
+                      <div className="col-lg-7 d-flex align-items-center">
                         <div className="topic-text-box">
-                          <div className="ad-heading"><p>Lesson 01</p></div>
+                          <div className="ad-heading">Lesson 01</div>
                           <div className="topic-list">
                             <span className="me-3">Start Date </span>
                             21-02-2023
@@ -76,12 +76,12 @@ const ElearningSubjectTopic = () => {
                       <Accordion.Header className="custom-header">
                         <div className="tch-left">
                           <div className="row">
-                            <div className="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-3">
+                            <div className="col-lg-5">
                               <img src={topic_icon} alt="" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
+                            <div className="col-lg-7 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><p>Topic 01</p></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -104,17 +104,17 @@ const ElearningSubjectTopic = () => {
                             <div className="sub-topic">
                               <div className="tch-left">
                                 <div className="row">
-                                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                                  <div className="col-lg-3">
                                     <img
                                       src={subtopic_icon}
                                       alt=""
                                       className="me-5"
                                     />
                                   </div>
-                                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                                  <div className="col-lg-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -138,17 +138,17 @@ const ElearningSubjectTopic = () => {
                             <div className="sub-topic">
                               <div className="tch-left">
                                 <div className="row">
-                                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                                  <div className="col-lg-3">
                                     <img
                                       src={subtopic_icon}
                                       alt=""
                                       className="me-5"
                                     />
                                   </div>
-                                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                                  <div className="col-lg-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                       <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -172,17 +172,17 @@ const ElearningSubjectTopic = () => {
                             <div className="sub-topic">
                               <div className="tch-left">
                                 <div className="row">
-                                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                                  <div className="col-lg-3">
                                     <img
                                       src={subtopic_icon}
                                       alt=""
                                       className="me-5"
                                     />
                                   </div>
-                                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                                  <div className="col-lg-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                       <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>
@@ -204,12 +204,12 @@ const ElearningSubjectTopic = () => {
                       <Accordion.Header className="custom-header">
                         <div className="tch-left">
                           <div className="row">
-                            <div className="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-3">
+                            <div className="col-lg-5">
                               <img src={topic_icon} alt="" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-9 col-9 d-flex align-items-center">
+                            <div className="col-lg-7 d-flex align-items-center">
                               <div className="topic-text-box">
-                                <div className="ad-heading"><p>Topic 01</p></div>
+                                <div className="ad-heading">Topic 01</div>
                                 <div className="topic-list">
                                   <span className="me-3">Start Date </span>
                                   21-02-2023
@@ -232,17 +232,17 @@ const ElearningSubjectTopic = () => {
                             <div className="sub-topic">
                               <div className="tch-left">
                                 <div className="row">
-                                  <div className="col-lg-3 col-md-3 col-sm-3 col-3">
+                                  <div className="col-lg-3">
                                     <img
                                       src={subtopic_icon}
                                       alt=""
                                       className="me-5"
                                     />
                                   </div>
-                                  <div className="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center">
+                                  <div className="col-lg-9 d-flex align-items-center">
                                     <div className="topic-text-box">
                                       <div className="ad-heading">
-                                        <p>Sub Topic 01</p>
+                                        Sub Topic 01
                                       </div>
                                       <div className="topic-list">
                                         <span className="me-2">Duration</span>

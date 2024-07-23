@@ -39,7 +39,7 @@ const DailyAssessmentwithoutReview = () => {
                 <div className="ad-text-box">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="ad-heading"><p>Assessment 01</p></div>
+                      <div className="ad-heading">Assessment 01</div>
                     </div>
                     <div className="col-lg-3">
                       <div className="ad-detail-text">
@@ -101,9 +101,9 @@ const DailyAssessmentwithoutReview = () => {
                   <Accordion
                     activeIndex={0}
                     // multiple
-                    className="assignment-accordion"
+                    className="assignment-accordion red-label"
                   >
-                    <AccordionTab header="Question 01" className="header-1">
+                    <AccordionTab header="Question 01">
                       <div className="subtitle">
                         <p>Multiple Choice Single Answer Question.</p>
                       </div>
@@ -115,7 +115,7 @@ const DailyAssessmentwithoutReview = () => {
                           </p>
                         </div>
                         <div className="question-choices">
-                          <form className="qform1">
+                          <form className="qform">
                             <label>
                             <input type="checkbox" name="radio" checked="checked"/>
                               <span>put on</span>
@@ -135,7 +135,7 @@ const DailyAssessmentwithoutReview = () => {
                         </div>
                       </div>
                     </AccordionTab>
-                    <AccordionTab header="Question 02" className="header-2">
+                    <AccordionTab header="Question 02">
                       <div className="subtitle">
                         <p>Multiple Choice Multiple Answer Question.</p>
                       </div>
@@ -147,7 +147,7 @@ const DailyAssessmentwithoutReview = () => {
                           </p>
                         </div>
                         <div className="question-choices">
-                          <form className="qform1">
+                          <form className="qform">
                             <label>
                             <input type="checkbox" name="radio" checked="checked"/>
                               <span className="true">Cat</span>
@@ -164,7 +164,7 @@ const DailyAssessmentwithoutReview = () => {
                         </div>
                       </div>
                     </AccordionTab>
-                    <AccordionTab header="Question 03" className="header-3">
+                    <AccordionTab header="Question 03">
                       <div className="subtitle">
                         <p>Fill in the blanks</p>
                       </div>

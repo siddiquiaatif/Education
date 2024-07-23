@@ -9,11 +9,10 @@
 .labelKey {
   color: rgba(30, 10, 27, 0.3);
   font-size: 12px;
-  margin-bottom: 0;
 }
 
 .labelValue {
-  color: rgba(30, 10, 27, 0.6);
+  color: rgba(30, 10, 27, 0.8);
   font-size: 14px;
 }
 
@@ -41,10 +40,7 @@
 // This is form input field style
 .fieldSetCUST {
   position: relative;
-  .p-calendar .p-inputtext {
-    font-size: 14px;
-    color: #212529;
-  }
+
   .dateChapter {
     width: 100%;
   }
@@ -75,8 +71,7 @@
   .form-select {
     height: 50px;
     border-radius: 12px;
-    padding: 0.375rem 2.25rem 0.375rem 1.1rem;
-    font-size: 14px;
+
     &:invalid {
       color: rgba(30, 10, 27, 0.6);
       font-size: 14px;
@@ -93,7 +88,7 @@
   .formsForTextArea {
     height: 120px;
     padding: 1rem !important;
-    font-size: 14px;
+
     &::placeholder {
       color: rgba(30, 10, 27, 0.6);
       font-size: 14px;
@@ -110,8 +105,6 @@
   .formsForValid {
     height: 50px;
     border-radius: 10px;
-    padding: 0.375rem 0.75rem 0.375rem 1.2rem;
-    font-size: 14px;
 
     &::placeholder {
       color: rgba(30, 10, 27, 0.6);
@@ -424,8 +417,8 @@
     .form-check-input {
       cursor: pointer;
       border-radius: 50% !important;
-      height: 18px;
-      width: 18px;
+      height: 14px;
+      width: 14px;
       margin-right: 0.5rem;
       margin-top: 0.35em !important;
 

@@ -39,7 +39,7 @@ const DailyAssignmentwithReview = () => {
                 <div className="ad-text-box">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="ad-heading"><p>Assignment 01</p></div>
+                      <div className="ad-heading">Assignment 01</div>
                     </div>
                     <div className="col-lg-3">
                       <div className="ad-detail-text">
@@ -115,7 +115,7 @@ const DailyAssignmentwithReview = () => {
                           </p>
                         </div>
                         <div className="question-choices">
-                          <form className="qform1">
+                          <form className="qform">
                             <label>
                             <input type="checkbox" name="radio" checked="checked"/>
                               <span>put on</span>
@@ -147,7 +147,7 @@ const DailyAssignmentwithReview = () => {
                           </p>
                         </div>
                         <div className="question-choices">
-                          <form className="qform1">
+                          <form className="qform">
                             <label>
                             <input type="checkbox" name="radio" checked="checked"/>
                               <span className="true">Cat</span>
@@ -177,7 +177,7 @@ const DailyAssignmentwithReview = () => {
                         </div>
                         {/* 
 	<div className="question-choices">
-	                          <form className="qform1">
+	                          <form className="qform">
 	                            <label>
 	                              <input type="checkbox" name="radio" />
 	                              <span className="true">Cat</span>

@@ -70,7 +70,7 @@ const CashlessWallet = () => {
                             <div
                                 className="tableBorders"
                                 id="feesTable"
-                                // data-aos="fade-up"
+                                data-aos="fade-up"
 
 
                             >
@@ -147,7 +147,7 @@ const CashlessWallet = () => {
                             <div
                                 className="tableBorders cx-mb-20"
                                 id="feesTable"
-                                // data-aos="fade-up"
+                                data-aos="fade-up"
 
 
                             >
@@ -218,7 +218,7 @@ const CashlessWallet = () => {
                             <div
                                 className="tableBorders"
                                 id="feesTable"
-                                // data-aos="fade-up"
+                                data-aos="fade-up"
 
 
                             >
@@ -269,7 +269,7 @@ const CashlessWallet = () => {
                             <div
                                 className="tableBorders"
                                 id="feesTable"
-                                // data-aos="fade-up"
+                                data-aos="fade-up"
 
 
                             >

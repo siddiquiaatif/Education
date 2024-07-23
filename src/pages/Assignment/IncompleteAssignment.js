@@ -31,16 +31,16 @@ const IncompleteAssignment = () => {
         >
           <div className="assignment-details-wrapper red-label">
             <div className="row g-0">
-              <div className="col-lg-1 col-md-2 col-sm-2">
+              <div className="col-lg-1">
                 <div className="ad-img-box">
                   <img src={pending_assignment_icon} alt=""/>
                 </div>
               </div>
-              <div className="col-lg-10 col-md-9 d-flex align-items-center">
+              <div className="col-lg-10 d-flex align-items-center">
                 <div className="ad-text-box">
                   <div className="row">
                     <div className="col-lg-12">
-                      <div className="ad-heading"><p>Assignment 02</p></div>
+                      <div className="ad-heading">Assignment 02</div>
                     </div>
                     <div className="col-lg-4">
                       <div className="ad-detail-text">
@@ -91,8 +91,8 @@ const IncompleteAssignment = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-1 col-md-1">
-                <div className="ad-img-box2">
+              <div className="col-lg-1">
+                <div className="ad-img-box">
                 <img src={pending_assignment} alt=""/>
                 </div>
               </div>

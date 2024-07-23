@@ -9,13 +9,11 @@ import SideArrow from "../../assets/images/dropdownArrow.svg"
 import CalendarImg from "../../assets/images/calendar.svg";
 import { Calendar } from 'primereact/calendar';
 import Form from 'react-bootstrap/Form';
-import { Navigate, useNavigate } from "react-router-dom";
 
 const EditAuthorisedPerson = () => {
     const [validated, setValidated] = useState(false);
     const [startDate, setStartDate] = useState(new Date());
     const [date, setDate] = useState(null);
-    const navigate = useNavigate();
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
@@ -106,9 +104,7 @@ const EditAuthorisedPerson = () => {
                         </div>
                         <div className="col-md-6 col-sm-12 cx-mb-20">
                             <div className="CreateAuthInput">
-                                <Calendar value={date} 
-                                // onChange={(e) => setDate(e.value)} 
-                                placeholder="Select Your Birth Date ..." required
+                                <Calendar value={date} onChange={(e) => setDate(e.value)} placeholder="Select Your Birth Date ..." required
                                 
                                     className="dateChapter" />
                                 <span className='legendHere'>Date Of Birth<span className='ashhStar'> &#42;</span> </span>
@@ -147,8 +143,8 @@ const EditAuthorisedPerson = () => {
                         </div>
                     </div>
                     <div className="CreateBtnAUtho">
-                        <button className='cx-btn-2' onClick={navigate("/AuthorisedPerson")}>Cancel</button>
-                        <button className='cx-btn-1 cx-ml-20'>Update</button>
+                        <button className='cx-btn-2'>Cancel</button>
+                        <button className='cx-btn-1 cx-ml-10'>Submit</button>
                     </div>
                 </Form>
             </div>
